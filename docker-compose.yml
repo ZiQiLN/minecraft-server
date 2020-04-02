@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  minecraft:
+    image: ziqiln/minecraft:latest
+    container_name: minecraft-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 25565:25565
+    volumes:
+      - ./world/:/mc/world
+      - ./mods/:/mc/mods
