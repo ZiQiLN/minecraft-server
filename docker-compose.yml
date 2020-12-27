@@ -2,7 +2,9 @@ version: "3.7"
 services:
   minecraft:
     image: ziqiln/minecraft:latest
-    container_name: minecraft-docker
+    container_name: aezircraft
+    environment:
+      - ELUA=true
     build:
       context: .
       dockerfile: Dockerfile
