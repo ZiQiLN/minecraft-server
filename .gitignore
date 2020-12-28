@@ -25,3 +25,6 @@ hs_err_pid*
 # Minecraft Files
 world
 mods
+
+# Node.js Files
+node_modules
