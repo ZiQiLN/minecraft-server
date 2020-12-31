@@ -10,28 +10,22 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "aezircraft",
-  "version": "0.0.1-alpha.2",
+  "name": "aezircraft 2.0",
   "author": "",
   "files": [
+    {
+      "projectID": 289712,
+      "fileID": 3147835,
+      "required": true
+    },
     {
       "projectID": 239197,
       "fileID": 3116045,
       "required": true
     },
     {
-      "projectID": 351914,
-      "fileID": 3104239,
-      "required": true
-    },
-    {
-      "projectID": 368718,
-      "fileID": 3110846,
-      "required": true
-    },
-    {
-      "projectID": 60089,
-      "fileID": 3035780,
+      "projectID": 372534,
+      "fileID": 3068560,
       "required": true
     },
     {
@@ -40,33 +34,18 @@
       "required": true
     },
     {
-      "projectID": 238372,
-      "fileID": 3077588,
+      "projectID": 368718,
+      "fileID": 3110846,
       "required": true
     },
     {
-      "projectID": 222097,
-      "fileID": 3009226,
+      "projectID": 402231,
+      "fileID": 3117044,
       "required": true
     },
     {
-      "projectID": 267172,
-      "fileID": 3136117,
-      "required": true
-    },
-    {
-      "projectID": 289712,
-      "fileID": 3147835,
-      "required": true
-    },
-    {
-      "projectID": 238222,
-      "fileID": 3136600,
-      "required": true
-    },
-    {
-      "projectID": 334853,
-      "fileID": 3103834,
+      "projectID": 351914,
+      "fileID": 3104239,
       "required": true
     },
     {
@@ -75,8 +54,48 @@
       "required": true
     },
     {
+      "projectID": 238222,
+      "fileID": 3136600,
+      "required": true
+    },
+    {
+      "projectID": 365460,
+      "fileID": 3117043,
+      "required": true
+    },
+    {
+      "projectID": 267172,
+      "fileID": 3136117,
+      "required": true
+    },
+    {
       "projectID": 288885,
       "fileID": 3112661,
+      "required": true
+    },
+    {
+      "projectID": 238372,
+      "fileID": 3077588,
+      "required": true
+    },
+    {
+      "projectID": 334853,
+      "fileID": 3103834,
+      "required": true
+    },
+    {
+      "projectID": 361385,
+      "fileID": 3076451,
+      "required": true
+    },
+    {
+      "projectID": 60089,
+      "fileID": 3035780,
+      "required": true
+    },
+    {
+      "projectID": 222097,
+      "fileID": 3009226,
       "required": true
     }
   ],
