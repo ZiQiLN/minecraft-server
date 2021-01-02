@@ -3,7 +3,7 @@ version: '3.7'
 
 services:
   minecraft:
-    image: ziqiln/aezircraft:dev
+    image: ziqiln/aezircraft
     ports:
       - 25565:25565
     volumes:
@@ -12,12 +12,9 @@ services:
     environment:
       EULA: 'TRUE'
       VERSION: '1.12.2'
+      TYPE: 'forge'
       FORGEVERSION: 'RECOMMENDED'
-      # FORGEVERSION: "14.23.5.2807"
-      # CONSOLE: 'false'
-      # ENABLE_RCON: 'true'
-      # RCON_PASSWORD: 'testing'
-      # RCON_PORT: 28016
+      ONLINE_MODE: 'false'
     restart: 'unless-stopped'
 
 volumes:
