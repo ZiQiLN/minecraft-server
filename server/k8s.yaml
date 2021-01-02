@@ -3,18 +3,18 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   labels:
-    app: example
-  name: example
+    app: aezircraft
+  name: aezircraft
 spec:
   replicas: 1
-  serviceName: example
+  serviceName: aezircraft
   selector:
     matchLabels:
-      app: example
+      app: aezircraft
   template:
     metadata:
       labels:
-        app: example
+        app: aezircraft
     spec:
       containers:
         - name: aezircraft
@@ -23,34 +23,90 @@ spec:
             - name: EULA
               value: 'TRUE'
             - name: VERSION
-              value: '1.12.2'
-            - name: FORGEVERSION
-              value: 'RECOMMENDED'
+              # 1.12.2
+              value: '1.16.4'
+            - name: TYPE
+              # MAGMA
+              value: 'PAPER'
+            # - name: MODPACK
+            #   value: ...
+            # - name: FORGEVERSION
+            #   value: 'RECOMMENDED'
+            - name: ENABLE_RCON
+              value: 'true'
+            - name: RCON_PASSWORD
+              value: 'testing'
+            - name: RCON_PORT
+              value: '28016'
           volumeMounts:
             - mountPath: /data
-              name: aezircraft-data
-            - mountPath: /mods
-              name: mods
+              name: aezircraft
+          # resources:
+          #   requests:
+          #     memory: 512Mi
+          #     cpu: 150m
+          #   limits:
+          #     memory: 8096Mi
+          #     cpu: 1500m
+
   volumeClaimTemplates:
     - metadata:
-        name: data
+        name: aezircraft
       spec:
         accessModes:
           - ReadWriteOnce
         resources:
           requests:
-            storage: 1Gi
+            storage: 8Gi
 ---
 apiVersion: v1
 kind: Service
 metadata:
   labels:
-    service: example
-  name: example
+    service: aezircraft
+  name: aezircraft-server
 spec:
   ports:
     - port: 25565
       targetPort: 25565
   selector:
-    app: example
+    app: aezircraft
   type: LoadBalancer
+# ---
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: aezircraft-rcon
+# spec:
+#   selector:
+#     app: aezircraft
+#   ports:
+#     - port: 4326
+#       targetPort: 4326
+#     - port: 4327
+#       targetPort: 4327
+
+# ---
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: aezircraft-rcon
+# spec:
+#   selector:
+#     matchLabels:
+#       app: aezircraft-rcon
+#   template:
+#     metadata:
+#       labels:
+#         app: aezircraft-rcon
+#     spec:
+#       containers:
+#         - name: aezircraft-rcon
+#           image: itzg/rcon
+#           resources:
+#             limits:
+#               memory: '128Mi'
+#               cpu: '500m'
+#           volumeMounts:
+#             - mountPath: /opt/rcon-web-admin/db
+#               name: rcon
