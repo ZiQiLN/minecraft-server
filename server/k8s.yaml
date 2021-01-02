@@ -23,15 +23,21 @@ spec:
             - name: EULA
               value: 'TRUE'
             - name: VERSION
-              # 1.12.2
-              value: '1.16.4'
+              value: '1.12.2'
             - name: TYPE
-              # MAGMA
-              value: 'PAPER'
-            # - name: MODPACK
-            #   value: ...
-            # - name: FORGEVERSION
-            #   value: 'RECOMMENDED'
+              value: 'FORGE'
+            - name: ONLINE_MODE
+              value: 'false'
+            - name: MODPACK
+              value: 'https://github.com/ZiQiLN/aezircraft/releases/download/v0.0.1-alpha.2/aezircraft.modpack-v0.0.1-alpha.2.zip'
+            - name: FORGEVERSION
+              value: 'RECOMMENDED'
+            - name: INIT_MEMORY
+              value: 4G
+            - name: LEVEL_TYPE
+              value: 'BIOMESOP'
+            - name: USE_AIKAR_FLAGS
+              value: 'true'
             - name: ENABLE_RCON
               value: 'true'
             - name: RCON_PASSWORD
@@ -41,13 +47,13 @@ spec:
           volumeMounts:
             - mountPath: /data
               name: aezircraft
-          # resources:
-          #   requests:
-          #     memory: 512Mi
-          #     cpu: 150m
-          #   limits:
-          #     memory: 8096Mi
-          #     cpu: 1500m
+          resources:
+            requests:
+              memory: '4Gi'
+              cpu: '2'
+            # limits:
+            #   memory: 8096Mi
+            #   cpu: 1500m
 
   volumeClaimTemplates:
     - metadata:
