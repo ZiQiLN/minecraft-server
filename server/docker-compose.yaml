@@ -1,0 +1,24 @@
+version: '3.7'
+# Compose file dedicated for running server with mods, this reqiures few steps from you.
+
+services:
+  minecraft:
+    image: ziqiln/aezircraft:dev
+    ports:
+      - 25565:25565
+    volumes:
+      - 'aezircraft-data:/data'
+      - './mods:/mods:ro'
+    environment:
+      EULA: 'TRUE'
+      VERSION: '1.12.2'
+      FORGEVERSION: 'RECOMMENDED'
+      # FORGEVERSION: "14.23.5.2807"
+      # CONSOLE: 'false'
+      # ENABLE_RCON: 'true'
+      # RCON_PASSWORD: 'testing'
+      # RCON_PORT: 28016
+    restart: 'unless-stopped'
+
+volumes:
+  aezircraft-data: {}
