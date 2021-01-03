@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "aezircraft",
-  "version": "0.0.1-alpha.6",
+  "name": "aezor",
+  "version": "0.0.1-alpha.7",
   "author": "",
   "files": [
     {
@@ -180,6 +180,11 @@
       "required": true
     },
     {
+      "projectID": 283644,
+      "fileID": 2694382,
+      "required": true
+    },
+    {
       "projectID": 272515,
       "fileID": 2685984,
       "required": true
@@ -187,6 +192,11 @@
     {
       "projectID": 59751,
       "fileID": 2684780,
+      "required": true
+    },
+    {
+      "projectID": 238551,
+      "fileID": 2744766,
       "required": true
     },
     {
@@ -202,6 +212,11 @@
     {
       "projectID": 228529,
       "fileID": 2852872,
+      "required": true
+    },
+    {
+      "projectID": 270305,
+      "fileID": 2617198,
       "required": true
     },
     {
@@ -240,13 +255,13 @@
       "required": true
     },
     {
-      "projectID": 386747,
-      "fileID": 3106411,
+      "projectID": 251396,
+      "fileID": 2537265,
       "required": true
     },
     {
-      "projectID": 251396,
-      "fileID": 2537265,
+      "projectID": 386747,
+      "fileID": 3106411,
       "required": true
     },
     {
@@ -297,6 +312,11 @@
     {
       "projectID": 277064,
       "fileID": 3040592,
+      "required": true
+    },
+    {
+      "projectID": 241420,
+      "fileID": 2744747,
       "required": true
     },
     {
@@ -420,11 +440,6 @@
       "required": true
     },
     {
-      "projectID": 269359,
-      "fileID": 2737879,
-      "required": true
-    },
-    {
       "projectID": 268250,
       "fileID": 2544919,
       "required": true
@@ -440,8 +455,18 @@
       "required": true
     },
     {
+      "projectID": 288885,
+      "fileID": 2838777,
+      "required": true
+    },
+    {
       "projectID": 248787,
       "fileID": 2987247,
+      "required": true
+    },
+    {
+      "projectID": 299488,
+      "fileID": 3015268,
       "required": true
     },
     {
@@ -495,13 +520,13 @@
       "required": true
     },
     {
-      "projectID": 289529,
-      "fileID": 3092963,
+      "projectID": 246640,
+      "fileID": 2704562,
       "required": true
     },
     {
-      "projectID": 246640,
-      "fileID": 2704562,
+      "projectID": 289529,
+      "fileID": 3092963,
       "required": true
     },
     {
