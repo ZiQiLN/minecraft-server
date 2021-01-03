@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "aezor",
-  "version": "0.0.1-alpha.7",
+  "version": "0.0.1-alpha.8",
   "author": "",
   "files": [
     {
@@ -60,6 +60,11 @@
       "required": true
     },
     {
+      "projectID": 253462,
+      "fileID": 2834651,
+      "required": true
+    },
+    {
       "projectID": 256247,
       "fileID": 2704832,
       "required": true
@@ -97,6 +102,11 @@
     {
       "projectID": 227873,
       "fileID": 2721268,
+      "required": true
+    },
+    {
+      "projectID": 237903,
+      "fileID": 2966845,
       "required": true
     },
     {
@@ -265,6 +275,11 @@
       "required": true
     },
     {
+      "projectID": 233019,
+      "fileID": 2450734,
+      "required": true
+    },
+    {
       "projectID": 79287,
       "fileID": 2481605,
       "required": true
@@ -301,7 +316,7 @@
     },
     {
       "projectID": 277616,
-      "fileID": 2730749,
+      "fileID": 2959847,
       "required": true
     },
     {
@@ -440,6 +455,11 @@
       "required": true
     },
     {
+      "projectID": 389665,
+      "fileID": 3067998,
+      "required": true
+    },
+    {
       "projectID": 268250,
       "fileID": 2544919,
       "required": true
@@ -455,6 +475,11 @@
       "required": true
     },
     {
+      "projectID": 296676,
+      "fileID": 2937109,
+      "required": true
+    },
+    {
       "projectID": 288885,
       "fileID": 2838777,
       "required": true
@@ -462,11 +487,6 @@
     {
       "projectID": 248787,
       "fileID": 2987247,
-      "required": true
-    },
-    {
-      "projectID": 299488,
-      "fileID": 3015268,
       "required": true
     },
     {
@@ -647,11 +667,6 @@
     {
       "projectID": 227795,
       "fileID": 2823030,
-      "required": true
-    },
-    {
-      "projectID": 241721,
-      "fileID": 3044416,
       "required": true
     },
     {
