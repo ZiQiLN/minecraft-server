@@ -31,6 +31,7 @@ install:
       - 32274 # JourneyMap
       - 60089 # Mouse Tweaks
       - 248787 # AppleSkin
+      - 238891 # Dynamic Surroundings
       - 297038 #CraftPresence
       - 308702 #Mod Menu
       - 313219 #Health Overlay

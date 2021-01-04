@@ -22,3 +22,4 @@
 - [Wawla](https://www.curseforge.com/minecraft/mc-mods/wawla)
 - [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
 - [Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin)
+- [Dynamic Surroundings](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings)
