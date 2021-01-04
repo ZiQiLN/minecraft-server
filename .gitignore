@@ -31,3 +31,5 @@ modpack/overrides/mods/OptiFine_1.12.2_HD_U_F5.jar
 modpack/overrides/config/jei/worldSettings.cfg
 modpack/overrides/config/customloadingscreen_timings.nbt
 modpack/overrides/config/jei/worldSettings.cfg
+modpack/overrides/config/vanillafix/methods-stable_39.csv
+modpack/overrides/config/vanillafix/config_version
