@@ -26,6 +26,7 @@ install:
       - 229302 # Custom Loading Screen
       - 292785 # VanillaFix
       - 238372 # Neat
+      - 253449 # Hwyla
       - 297038 #CraftPresence
       - 308702 #Mod Menu
       - 313219 #Health Overlay

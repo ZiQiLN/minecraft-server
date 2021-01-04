@@ -15,3 +15,4 @@
 - [FoamFix](https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod) 0.10.11
 - [VanillaFix](https://www.curseforge.com/minecraft/mc-mods/vanillafix) 1.0.10.150
 - [Neat](https://www.curseforge.com/minecraft/mc-mods/neat) 1.4.17
+- [Hwyla](https://www.curseforge.com/minecraft/mc-mods/hwyla)
