@@ -5,38 +5,45 @@ modpack:
   description: ...
 
 install:
-  mcVersion: 1.16.4
+  mcVersion: 1.12.2
 
-  loaderVersion: 0.10.8
+  loaderVersion: null
 
-  installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.5.2.40/fabric-installer-0.5.2.40.jar
+  installerUrl: http://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar
 
   installerArguments:
-    - "server"
-    - "-downloadMinecraft"
-    - "-snapshot"
-    - "-mcversion"
-    - "1.16.4"
-    - "-loader"
-    - "0.10.8"
+    - "installServer"
 
-  # Link to where the file where the modpack can be distributed
-  # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-  modpackUrl: https://www.curseforge.com/minecraft/modpacks/mystic-alchemists/download/3157823
-  
-  # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
-  # current supported formats:
-  # - curseforge or curse
-  # - curseid
-  # - zip or zipfile
+  modpackUrl: https://media.forgecdn.net/files/3157/823/aezirro_v1.0.0.zip
   modpackFormat: curse
 
   # Settings which are specific to the format used, might not be needed in some casese
   formatSpecific:
     # optional paramenter used for curse to specify a whole project to ignore (mostly if it is client side only)
     ignoreProject:
-      - 317514 #mouse wheelie
-      - 411705 #damage tilt
+      - 297038 #CraftPresence
+      - 308702 #Mod Menu
+      - 313219 #Health Overlay
+      - 317514 #Mouse Wheelie
+      - 325492 #Light Overlay
+      - 325625 #Roughly Enough Resources
+      - 335493 #Dynamic FPS
+      - 353641 #JumpOverFences
+      - 354047 #Ok Zoomer
+      - 355583 #Advancements Enlarger
+      - 360449 #Egg Tab
+      - 361550 #No Potion Offset
+      - 363126 #Boring Backgrounds
+      - 365521 #Pling
+      - 366240 #GameInfo
+      - 369122 #Better Enchanted Books
+      - 380393 #'Slight' Gui Modifications
+      - 388252 #Notes
+      - 398502 #Cherished Worlds
+      - 400929 #cAn i MiNe thIS bLOCk?
+      - 401978 #Disable Custom Worlds Advice
+      - 408366 #SlotLock
+      - 411705 #Damage Tilt
 
   baseInstallPath: ~
 
@@ -54,33 +61,34 @@ launch:
   spongefix: no
   ramDisk: no
   checkOffline: no
-  maxRam: 4G
+  maxRam: 6G
+  minRam: 2G
   autoRestart: yes
   crashLimit: 10
   crashTimer: 60min
   preJavaArgs: ~
-  startFile: fabric-server-launch.jar
+  startFile: forge-{{@mcversion@}}-{{@loaderversion@}}-universal.jar
   forcedJavaPath: ~
   javaArgs:
-    - "-server"
     - "-XX:+UseG1GC"
     - "-XX:+ParallelRefProcEnabled"
-    - "-XX:MaxGCPauseMillis=100"
+    - "-XX:MaxGCPauseMillis=30"
     - "-XX:+UnlockExperimentalVMOptions"
     - "-XX:+DisableExplicitGC"
     - "-XX:+AlwaysPreTouch"
     - "-XX:G1NewSizePercent=30"
     - "-XX:G1MaxNewSizePercent=40"
     - "-XX:G1HeapRegionSize=8M"
-    - "-XX:G1ReservePercent=20"
-    - "-XX:G1HeapWastePercent=5" 
-    - "-XX:G1MixedGCCountTarget=4" 
-    - "-XX:InitiatingHeapOccupancyPercent=15" 
-    - "-XX:G1MixedGCLiveThresholdPercent=90" 
-    - "-XX:G1RSetUpdatingPauseTimePercent=5" 
-    - "-XX:SurvivorRatio=32" 
-    - "-XX:+PerfDisableSharedMem" 
-    - "-XX:MaxTenuringThreshold=1" 
-    - "-Dusing.aikars.flags=https://mcflags.emc.gs" 
+    - "-XX:G1ReservePercent=25"
+    - "-XX:G1HeapWastePercent=5"
+    - "-XX:G1MixedGCCountTarget=4"
+    - "-XX:InitiatingHeapOccupancyPercent=15"
+    - "-XX:G1MixedGCLiveThresholdPercent=90"
+    - "-XX:G1RSetUpdatingPauseTimePercent=5"
+    - "-XX:SurvivorRatio=32"
+    - "-XX:+PerfDisableSharedMem"
+    - "-XX:MaxTenuringThreshold=1"
+    - "-Dusing.aikars.flags=https://mcflags.emc.gs"
     - "-Daikars.new.flags=true"
-
+    - "-XX:ConcGCThreads=3"
+    - "-XX:ParallelGCThreads=12"
