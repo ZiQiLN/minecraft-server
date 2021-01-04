@@ -8,10 +8,10 @@ services:
     environment:
       EULA: "true"
       ONLINE_MODE: "false"
-      MEMORY: '10G'
+      MEMORY: '6G'
       LEVEL_TYPE: "BIOMESOP"
       TYPE: CURSEFORGE
-      CF_SERVER_MOD: https://media.forgecdn.net/files/3157/836/aezirro.server_v1.0.0.zip
+      CF_SERVER_MOD: https://media.forgecdn.net/files/3158/95/MA-master-605e2c5.460869203.zip
     tty: true
     restart: 'unless-stopped'
     ports:
