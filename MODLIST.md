@@ -12,3 +12,4 @@
 - [Ding](https://www.curseforge.com/minecraft/mc-mods/ding) 1.0.2
 - [JEI](https://www.curseforge.com/minecraft/mc-mods/jei) 4.16.1.301
 - [Custom Loading Screen](https://www.curseforge.com/minecraft/mc-mods/better-loading-screen) 1.4.1
+- [FoamFix](https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod) 0.10.11
