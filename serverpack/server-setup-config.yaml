@@ -1,7 +1,7 @@
 _specver: 2
 
 modpack:
-  name: Aezirro
+  name: The Mystic Alchemist's Modpack
   description: ...
 
 install:
@@ -14,7 +14,7 @@ install:
   installerArguments:
     - "installServer"
 
-  modpackUrl: https://media.forgecdn.net/files/3157/823/aezirro_v1.0.0.zip
+  modpackUrl: https://media.forgecdn.net/files/3158/83/MA-master-a9e32aa.460859800.zip
   modpackFormat: curse
 
   # Settings which are specific to the format used, might not be needed in some casese
