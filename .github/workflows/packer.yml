@@ -1,4 +1,4 @@
-name: ServerPacker
+name: Packer
 
 on: [push]
 
@@ -25,7 +25,17 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         # Artifact name
-        name: MA-${{ steps.extract_branch.outputs.branch }}-${{ steps.extract_ish.outputs.ish }}.${{ github.run_id }}
+        # name: MA-${{ steps.extract_branch.outputs.branch }}-${{ steps.extract_ish.outputs.ish }}.${{ github.run_id }}
+        name: MA-.${{ github.run_id }}
+        # A file, directory or wildcard pattern that describes what to upload
+        path: |
+          modpack/**
+
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        # Artifact name
+        name: MAS-.${{ github.run_id }}
         # A file, directory or wildcard pattern that describes what to upload
         path: |
           serverpack/**
