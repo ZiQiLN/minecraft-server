@@ -11,6 +11,13 @@ Aezor is innovative modpack related to building technical world with a bit of ad
 - New structures and dungeons to discover, powered by [Rougelike Dungeons]()
 - Unique tool crafting experience with [Thinker's Construct]() and [Tetra]()
 
+## Usage
+Complete guide for installing client-side mods with [CurseForge]() and building server based on [Docker]() or if somebody prefers production-like environment [Kubernetes]() with [Skaffold]().
+
+```
+TBC
+```
+
 ## Recommendations
 
 - **Minium allocated RAM**: 6GB
