@@ -1,32 +1,21 @@
-# Aezor
+# Aezor 1.12.2
 
-Aezircraft is side-project created by ZiQiLN dedicated for community gathered arround his creations and content at real world. Pack contains the "classics" of technology modpacks combined with adventure sauce which results in really nice and interesting gameplay.
+Aezor is innovative modpack related to building technical world with a bit of adventure.
 
-Aezircraft offers a lot but it's not focused on general players, package is focused at technology and that will be not changed, of course Aezircraft provides somethings for other kinds of players such as builders, explorers or maybe hardcore survivalists.
+> Server currently is moved out from our k8s cluster because of issues with importing configuration, as a solution we've build a bare-metal server based on Docker, we aren't sure about final decision about production.
 
 ## Features
 
 - Stunning new biomes by [Biomes'O'Plenty]()
-- New blocks and furnitures to make your buildings awesome.
+- New [Chisel}()-based blocks and furnitures ([Bibliocraft]()) to make your buildings awesome.
 - New structures and dungeons to discover, powered by [Rougelike Dungeons]()
 - Unique tool crafting experience with [Thinker's Construct]() and [Tetra]()
-
-**NOTE**: Modpack is maintained as early version, there may come major changes on features.
 
 ## Recommendations
 
 - **Minium allocated RAM**: 6GB
 - **Recommended allocated RAM**: 8GB
-- **Optifine**: Currently we don't support Optifine
+- **Optifine**: OptiFine HD U F5
 
-## Modlist
-
-<details>
-  <summary>Detailed Modlist is under spoiler</summary>
-  
-#### Client-Side Modifications
-- InventoryTweaks
-- Xero Minimap
-#### Server-Side Modificatons
-#### Libraries & APIs
-</details>
+## Credits
+Modpack was build by [@ziqiln](https://github.com/ziqiln) with usage of code published in other repositories (for building Docker-backed Server) like [itzg/minecraft-server](https://github.com/itzg/docker-minecraft-server).

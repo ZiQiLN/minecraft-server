@@ -29,7 +29,7 @@ spec:
             - name: ONLINE_MODE
               value: 'false'
             - name: MODPACK
-              value: 'https://github.com/ZiQiLN/aezor/releases/download/v0.0.1-alpha.6/aezor.modpack.zip'
+              value: 'https://github.com/ZiQiLN/aezor/releases/download/v0.0.1-alpha.8/Archive.zip'
             - name: FORGEVERSION
               value: 'RECOMMENDED'
             - name: MEMORY
