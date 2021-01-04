@@ -21,7 +21,9 @@ install:
   formatSpecific:
     # optional paramenter used for curse to specify a whole project to ignore (mostly if it is client side only)
     ignoreProject:
-      - 231275 #Ding
+      - 231275 # Ding
+      - 238222 # Just Enough Items (JEI)
+      - 229302 # Custom Loading Screen
       - 297038 #CraftPresence
       - 308702 #Mod Menu
       - 313219 #Health Overlay
