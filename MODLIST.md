@@ -6,3 +6,6 @@
 
 ### Server Mods
 - [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) 3.5.106
+
+### Client Improvements (Client-only Mods)
+- [Ding])(https://www.curseforge.com/minecraft/mc-mods/ding) 1.0.2
