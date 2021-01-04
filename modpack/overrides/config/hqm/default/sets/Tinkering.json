@@ -1,0 +1,526 @@
+{
+  "name": "Tinkering",
+  "quests": [
+    {
+      "uuid": "87d21ffe-d637-4989-971e-6349712d332b",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 88,
+      "y": 15,
+      "icon": {
+        "id": "astromine:meteoric_steel_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "2e9c68fc-dca6-4990-970c-c40202067d63"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "87e11a61-58a6-4760-a745-bb408a66cc22",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 108,
+      "y": 79,
+      "icon": {
+        "id": "astromine:advanced_drill",
+        "Count": 1,
+        "tag": {
+          "energy": 0
+        }
+      },
+      "prerequisites": [
+        "4ede2bda-bc2b-48cd-ba12-9d14cacb2373"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3bd15f9a-4396-4d87-9f14-0a295b5d9273",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 291,
+      "y": 129,
+      "icon": {
+        "id": "astromine:galaxium_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "98bb6f83-0277-4c20-bfa3-3ee4f1c2f39f"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7b0bb5f5-1ad6-4ec9-b7ac-776d33452ff7",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 135,
+      "y": 121,
+      "icon": {
+        "id": "astromine:stellum_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "85fc88ac-8795-4f3e-bb5e-1c658ec1a0a5"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "33a770d5-9ac2-4fd5-a3af-34f3b5040368",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 118,
+      "y": 24,
+      "icon": {
+        "id": "betterend:terminite_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "87d21ffe-d637-4989-971e-6349712d332b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "55d205ea-6df4-46e6-8e01-bcb1c8e456e9",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 58,
+      "y": 46,
+      "icon": {
+        "id": "astromine:basic_drill",
+        "Count": 1,
+        "tag": {
+          "energy": 0
+        }
+      },
+      "prerequisites": [
+        "2fb21543-92f6-4996-916c-20425c6a9769"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b67e7a45-9cdf-4d45-9c78-30a3e88e8568",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 281,
+      "y": 26,
+      "icon": {
+        "id": "astromine:asterite_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "6cf30eb8-e47c-472d-946f-6c4bb2dc7c83"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4ede2bda-bc2b-48cd-ba12-9d14cacb2373",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 91,
+      "y": 50,
+      "icon": {
+        "id": "techreborn:advanced_drill",
+        "Count": 1,
+        "tag": {
+          "energy": 0
+        }
+      },
+      "prerequisites": [
+        "55d205ea-6df4-46e6-8e01-bcb1c8e456e9"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6cf30eb8-e47c-472d-946f-6c4bb2dc7c83",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 250,
+      "y": 14,
+      "icon": {
+        "id": "betterend:terminite_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "bfb05a7c-09c3-4e81-8ca8-1c831aefb3b4"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "85fc88ac-8795-4f3e-bb5e-1c658ec1a0a5",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 138,
+      "y": 85,
+      "icon": {
+        "id": "astromine:asterite_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "eed4ed2c-a9cc-4fe7-82bb-657646087cec"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d924573e-49bd-4f53-9695-a0882d76e7b7",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 20,
+      "y": 30,
+      "bigicon": true,
+      "icon": {
+        "id": "astromine:lead_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "32fe67c2-14bb-4560-abab-27619df9363d",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 261,
+      "y": 185,
+      "icon": {
+        "id": "dml-refabricated:glitch_chestplate",
+        "Count": 1,
+        "tag": {}
+      },
+      "prerequisites": [
+        "2c8aea22-669a-4df1-b7bb-5d2ebeb2730a"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a580a124-5df2-4fb3-b3bd-3c9d83c92226",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 228,
+      "y": 191,
+      "icon": {
+        "id": "techreborn:quantum_chestplate",
+        "Count": 1,
+        "tag": {
+          "energy": 4.0E7
+        }
+      },
+      "prerequisites": [
+        "32fe67c2-14bb-4560-abab-27619df9363d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2c8aea22-669a-4df1-b7bb-5d2ebeb2730a",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 281,
+      "y": 161,
+      "icon": {
+        "id": "astromine:univite_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "3bd15f9a-4396-4d87-9f14-0a295b5d9273"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ccf347a8-53a6-42ab-8f8a-7e0d918d84ec",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 109,
+      "y": 187,
+      "icon": {
+        "id": "astromine:univite_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "dc09a00f-f4d3-454a-accb-778883bbc098"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "98bb6f83-0277-4c20-bfa3-3ee4f1c2f39f",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 294,
+      "y": 96,
+      "icon": {
+        "id": "betterend:aeternium_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "c4cb5217-29f9-461f-85ce-2942c3546b54"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eabf43f3-3ec2-47af-b0ae-08d3bc2e14c7",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 92,
+      "y": 151,
+      "icon": {
+        "id": "techreborn:industrial_drill",
+        "Count": 1,
+        "tag": {
+          "energy": 0
+        }
+      },
+      "prerequisites": [
+        "abdaea20-39ff-4e9a-bdd9-c7fb3bcbab81"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c4cb5217-29f9-461f-85ce-2942c3546b54",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 293,
+      "y": 58,
+      "icon": {
+        "id": "astromine:stellum_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "b67e7a45-9cdf-4d45-9c78-30a3e88e8568"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "abdaea20-39ff-4e9a-bdd9-c7fb3bcbab81",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 104,
+      "y": 115,
+      "icon": {
+        "id": "astromine:elite_drill",
+        "Count": 1,
+        "tag": {
+          "energy": 0
+        }
+      },
+      "prerequisites": [
+        "87e11a61-58a6-4760-a745-bb408a66cc22"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eed4ed2c-a9cc-4fe7-82bb-657646087cec",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 138,
+      "y": 49,
+      "icon": {
+        "id": "betterend:aeternium_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "33a770d5-9ac2-4fd5-a3af-34f3b5040368"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fa7be871-b083-4445-9417-b02f6d28a7a6",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 180,
+      "y": 24,
+      "bigicon": true,
+      "icon": {
+        "id": "astromine:lead_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2fb21543-92f6-4996-916c-20425c6a9769",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 23,
+      "y": 71,
+      "bigicon": true,
+      "icon": {
+        "id": "techreborn:basic_drill",
+        "Count": 1,
+        "tag": {
+          "energy": 0
+        }
+      },
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2e9c68fc-dca6-4990-970c-c40202067d63",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 54,
+      "y": 12,
+      "icon": {
+        "id": "astromine:steel_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "d924573e-49bd-4f53-9695-a0882d76e7b7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bfb05a7c-09c3-4e81-8ca8-1c831aefb3b4",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 217,
+      "y": 13,
+      "icon": {
+        "id": "astromine:steel_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "fa7be871-b083-4445-9417-b02f6d28a7a6"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dc09a00f-f4d3-454a-accb-778883bbc098",
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 126,
+      "y": 156,
+      "icon": {
+        "id": "astromine:galaxium_pickaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "prerequisites": [
+        "7b0bb5f5-1ad6-4ec9-b7ac-776d33452ff7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
