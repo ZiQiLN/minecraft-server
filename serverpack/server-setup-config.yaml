@@ -12,7 +12,7 @@ install:
   installerUrl: http://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar
 
   installerArguments:
-    - "installServer"
+    - "--installServer"
 
   modpackUrl: https://media.forgecdn.net/files/3158/83/MA-master-a9e32aa.460859800.zip
   modpackFormat: curse
@@ -58,11 +58,9 @@ install:
   spongeBootstrapper: https://github.com/simon816/SpongeBootstrap/releases/download/v0.7.1/SpongeBootstrap-0.7.1.jar
 
 launch:
-  spongefix: no
   ramDisk: no
   checkOffline: no
   maxRam: 6G
-  minRam: 2G
   autoRestart: yes
   crashLimit: 10
   crashTimer: 60min
