@@ -4,6 +4,9 @@
 - [Biomes O'Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty) 7.0.1.2441
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark) 1.6.179 and [Quark Oddities](https://www.curseforge.com/minecraft/mc-mods/quark-oddities)
 
+### Utility Mods
+- [Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights)
+
 ### Server Mods
 - [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) 3.5.106
 - [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor-forge) 0.2.7
