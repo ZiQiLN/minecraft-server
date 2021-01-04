@@ -14,3 +14,4 @@
 - [Custom Loading Screen](https://www.curseforge.com/minecraft/mc-mods/better-loading-screen) 1.4.1
 - [FoamFix](https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod) 0.10.11
 - [VanillaFix](https://www.curseforge.com/minecraft/mc-mods/vanillafix) 1.0.10.150
+- [Neat](https://www.curseforge.com/minecraft/mc-mods/neat) 1.4.17
