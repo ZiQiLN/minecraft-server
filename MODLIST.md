@@ -6,6 +6,7 @@
 - [YUNG's Better Mineshafts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
 - [YUNG's Better Caves](https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves)
 - [YUNG's Law](https://www.curseforge.com/minecraft/mc-mods/yungs-law)
+- [Save my Stronghold!](https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold)
 
 ### Utility Mods
 - [Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights)
