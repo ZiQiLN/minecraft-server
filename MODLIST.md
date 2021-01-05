@@ -14,6 +14,7 @@
 - [Construct's Aromory](https://www.curseforge.com/minecraft/mc-mods/constructs-armory)
 - [Armory Expansion](https://www.curseforge.com/minecraft/mc-mods/armory-expansion)
 - [Moar Tinkers](https://www.curseforge.com/minecraft/mc-mods/moar-tinkers)
+- [Tinker I/O](https://www.curseforge.com/minecraft/mc-mods/tinker-i-o)
 - [Tinker Constuct Tool Leveling](https://www.curseforge.com/minecraft/mc-mods/tinkers-tool-leveling)
 
 ### Materials & Ores
