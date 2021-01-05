@@ -8,6 +8,9 @@
 - [YUNG's Law](https://www.curseforge.com/minecraft/mc-mods/yungs-law)
 - [Save my Stronghold!](https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold)
 
+### Tools, Armor and Eqiupment
+- [Tinker Consturct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
+
 ### Utility Mods
 - [Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights)
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
