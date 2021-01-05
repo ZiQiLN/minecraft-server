@@ -15,6 +15,7 @@
 ### Server Mods
 - [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) 3.5.106
 - [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor-forge) 0.2.7
+- [Tick Dynamic](https://www.curseforge.com/minecraft/mc-mods/tick-dynamic)
 
 ### Client Improvements (Client-only Mods)
 - [Ding](https://www.curseforge.com/minecraft/mc-mods/ding) 1.0.2
