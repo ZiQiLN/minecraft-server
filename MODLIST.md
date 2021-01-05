@@ -37,6 +37,7 @@
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
 - [NotEnoughIDs](https://www.curseforge.com/minecraft/mc-mods/notenoughids)
 - [UniDict](https://www.curseforge.com/minecraft/mc-mods/unidict)
+- [Gravestone](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod)
 
 ### Server Mods
 - [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) 3.5.106
