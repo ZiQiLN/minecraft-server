@@ -26,6 +26,7 @@
 - [OreExcavation](https://www.curseforge.com/minecraft/mc-mods/ore-excavation)
 - [More Plates](https://www.curseforge.com/minecraft/mc-mods/moreplates)
 - [Oreberries](https://www.curseforge.com/minecraft/mc-mods/oreberries)
+- [Rustic](https://www.curseforge.com/minecraft/mc-mods/rustic)
 
 ### Storage
 - [Vials](https://www.curseforge.com/minecraft/mc-mods/vials)
