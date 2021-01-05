@@ -6,6 +6,7 @@
 
 ### Utility Mods
 - [Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights)
+- [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
 
 ### Server Mods
 - [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) 3.5.106
