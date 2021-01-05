@@ -19,6 +19,7 @@
 
 ### Food & Hunger Mechanics
 - [Tough as Nails](https://www.curseforge.com/minecraft/mc-mods/tough-as-nails)
+- [Spice of Life](https://www.curseforge.com/minecraft/mc-mods/the-spice-of-life)
 
 ### Materials & Ores
 - [OreExcavation](https://www.curseforge.com/minecraft/mc-mods/ore-excavation)
