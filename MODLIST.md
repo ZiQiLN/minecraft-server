@@ -72,3 +72,4 @@
 - [CraftPresence](https://www.curseforge.com/minecraft/mc-mods/craftpresence)
 - [Tips](https://www.curseforge.com/minecraft/mc-mods/tips)
 - [Featured Servers](https://www.curseforge.com/minecraft/mc-mods/featured-servers)
+- [Better Foliage](https://www.curseforge.com/minecraft/mc-mods/better-foliage)
