@@ -39,3 +39,10 @@ modpack/overrides/config/bettermineshafts/1_12_2/variants.json
 modpack/overrides/config/bettermineshafts/1_12_2/README.txt
 modpack/overrides/config/bettermineshafts/1_12_2/biomeTags.txt
 modpack/overrides/config/YungsLaw/README.txt
+modpack/overrides/config/armoryexpansion/traits.txt
+modpack/overrides/config/armoryexpansion/custommaterials/custommaterials-traits.json
+modpack/overrides/config/armoryexpansion/conarm/conarm-traits.json
+modpack/overrides/config/armoryexpansion/custommaterials/custommaterials-alloys.json
+modpack/overrides/config/armoryexpansion/custommaterials/custommaterials-config.json
+modpack/overrides/config/armoryexpansion/custommaterials/custommaterials-materials.json
+modpack/overrides/config/armoryexpansion/custommaterials/custommaterials-oreDictEntries.json

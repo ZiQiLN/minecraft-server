@@ -12,6 +12,7 @@
 - [Tinker Consturct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
 - [Tinker Complement](https://www.curseforge.com/minecraft/mc-mods/tinkers-complement)
 - [Construct's Aromory](https://www.curseforge.com/minecraft/mc-mods/constructs-armory)
+- [Armory Expansion](https://www.curseforge.com/minecraft/mc-mods/armory-expansion)
 - [Tinker Constuct Tool Leveling](https://www.curseforge.com/minecraft/mc-mods/tinkers-tool-leveling)
 
 ### Storage
