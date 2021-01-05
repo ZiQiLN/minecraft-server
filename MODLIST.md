@@ -28,6 +28,10 @@
 - [More Plates](https://www.curseforge.com/minecraft/mc-mods/moreplates)
 - [Oreberries](https://www.curseforge.com/minecraft/mc-mods/oreberries)
 - [Rustic](https://www.curseforge.com/minecraft/mc-mods/rustic)
+- [Base Metals](https://www.curseforge.com/minecraft/mc-mods/base-metals)
+- [Modern Metals](https://www.curseforge.com/minecraft/mc-mods/modern-metals)
+- [Nether Metals](https://www.curseforge.com/minecraft/mc-mods/nether-metals)
+- [End Metals](https://www.curseforge.com/minecraft/mc-mods/end-metals)
 
 ### Storage
 - [Vials](https://www.curseforge.com/minecraft/mc-mods/vials)
