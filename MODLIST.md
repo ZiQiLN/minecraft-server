@@ -15,6 +15,9 @@
 - [Armory Expansion](https://www.curseforge.com/minecraft/mc-mods/armory-expansion)
 - [Tinker Constuct Tool Leveling](https://www.curseforge.com/minecraft/mc-mods/tinkers-tool-leveling)
 
+### Materials & Ores
+- [More Plates](https://www.curseforge.com/minecraft/mc-mods/moreplates)
+
 ### Storage
 - [Vials](https://www.curseforge.com/minecraft/mc-mods/vials)
 
