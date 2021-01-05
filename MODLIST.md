@@ -17,6 +17,7 @@
 
 ### Materials & Ores
 - [More Plates](https://www.curseforge.com/minecraft/mc-mods/moreplates)
+- [Oreberries](https://www.curseforge.com/minecraft/mc-mods/oreberries)
 
 ### Storage
 - [Vials](https://www.curseforge.com/minecraft/mc-mods/vials)
