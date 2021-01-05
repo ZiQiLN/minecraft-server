@@ -46,3 +46,7 @@ modpack/overrides/config/armoryexpansion/custommaterials/custommaterials-alloys.
 modpack/overrides/config/armoryexpansion/custommaterials/custommaterials-config.json
 modpack/overrides/config/armoryexpansion/custommaterials/custommaterials-materials.json
 modpack/overrides/config/armoryexpansion/custommaterials/custommaterials-oreDictEntries.json
+modpack/overrides/config/toughasnails/temperature.cfg
+modpack/overrides/config/toughasnails/material_temperature.json
+modpack/overrides/config/toughasnails/block_temperature.json
+modpack/overrides/config/toughasnails/armor_temp_modifiers.json

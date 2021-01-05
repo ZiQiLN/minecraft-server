@@ -17,6 +17,9 @@
 - [Tinker I/O](https://www.curseforge.com/minecraft/mc-mods/tinker-i-o)
 - [Tinker Constuct Tool Leveling](https://www.curseforge.com/minecraft/mc-mods/tinkers-tool-leveling)
 
+### Food & Hunger Mechanics
+- [Tough as Nails](https://www.curseforge.com/minecraft/mc-mods/tough-as-nails)
+
 ### Materials & Ores
 - [OreExcavation](https://www.curseforge.com/minecraft/mc-mods/ore-excavation)
 - [More Plates](https://www.curseforge.com/minecraft/mc-mods/moreplates)
