@@ -34,3 +34,7 @@ modpack/overrides/config/jei/worldSettings.cfg
 modpack/overrides/config/vanillafix/methods-stable_39.csv
 modpack/overrides/config/vanillafix/config_version
 modpack/overrides/config/journeymap_ModInfo.cfg
+modpack/overrides/config/bettermineshafts/README.txt
+modpack/overrides/config/bettermineshafts/1_12_2/variants.json
+modpack/overrides/config/bettermineshafts/1_12_2/README.txt
+modpack/overrides/config/bettermineshafts/1_12_2/biomeTags.txt
