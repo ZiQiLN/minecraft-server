@@ -24,4 +24,5 @@
 - [Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin)
 - [Dynamic Surroundings](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings)
 - [Dynamic Surroundings: HUD](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings-huds)
+- [DynamicView](https://www.curseforge.com/minecraft/mc-mods/dynamic-view)
 - [CraftPresence](https://www.curseforge.com/minecraft/mc-mods/craftpresence)
