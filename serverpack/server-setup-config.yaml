@@ -36,6 +36,7 @@ install:
       - 366140 # Dynamic View
       - 297038 # CraftPresence
       - 306549 # Tips
+      - 306187 # Featured Servers
       - 308702 #Mod Menu
       - 313219 #Health Overlay
       - 317514 #Mouse Wheelie
