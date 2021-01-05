@@ -27,3 +27,4 @@
 - [Dynamic Surroundings: HUD](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings-huds)
 - [DynamicView](https://www.curseforge.com/minecraft/mc-mods/dynamic-view)
 - [CraftPresence](https://www.curseforge.com/minecraft/mc-mods/craftpresence)
+- [Tips](https://www.curseforge.com/minecraft/mc-mods/tips)
