@@ -18,6 +18,7 @@
 - [Tinker Constuct Tool Leveling](https://www.curseforge.com/minecraft/mc-mods/tinkers-tool-leveling)
 
 ### Materials & Ores
+- [OreExcavation](https://www.curseforge.com/minecraft/mc-mods/ore-excavation)
 - [More Plates](https://www.curseforge.com/minecraft/mc-mods/moreplates)
 - [Oreberries](https://www.curseforge.com/minecraft/mc-mods/oreberries)
 
