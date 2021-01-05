@@ -9,6 +9,10 @@
 - [Save my Stronghold!](https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold)
 - [Serene Seasons](https://www.curseforge.com/minecraft/mc-mods/serene-seasons)
 
+### Energy and Technology
+- [EnderIO]()
+- [EnderIO: Endergy]()
+
 ### Tools, Armor and Eqiupment
 - [Tinker Consturct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
 - [Tinker Complement](https://www.curseforge.com/minecraft/mc-mods/tinkers-complement)
