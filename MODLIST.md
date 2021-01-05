@@ -7,6 +7,7 @@
 - [YUNG's Better Caves](https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves)
 - [YUNG's Law](https://www.curseforge.com/minecraft/mc-mods/yungs-law)
 - [Save my Stronghold!](https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold)
+- [Serene Seasons](https://www.curseforge.com/minecraft/mc-mods/serene-seasons)
 
 ### Tools, Armor and Eqiupment
 - [Tinker Consturct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
