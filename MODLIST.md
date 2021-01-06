@@ -17,6 +17,10 @@
     - [EnderIO: Endergy]()
     - [EnderIO: Zoo](https://www.curseforge.com/minecraft/mc-mods/ender-zoo)
 - [Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation)
+    - [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion)
+    - [Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics)
+    - [Thermal Innovation](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation)
+    - [Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation)
 
 ### Tools, Armor and Eqiupment
 - [Tinker Consturct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
