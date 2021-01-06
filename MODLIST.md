@@ -8,6 +8,7 @@
 - [YUNG's Law](https://www.curseforge.com/minecraft/mc-mods/yungs-law)
 - [Save my Stronghold!](https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold)
 - [Serene Seasons](https://www.curseforge.com/minecraft/mc-mods/serene-seasons)
+- [Worley's Caves]()
 
 ### Energy and Technology
 - [EnderIO]()
@@ -76,3 +77,4 @@
 - [Featured Servers](https://www.curseforge.com/minecraft/mc-mods/featured-servers)
 - [Better Foliage](https://www.curseforge.com/minecraft/mc-mods/better-foliage)
 - [OfflineSkins]()
+- [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
