@@ -33,6 +33,7 @@ install:
       - 32274 # JourneyMap
       - 60089 # Mouse Tweaks
       - 248787 # AppleSkin
+      - 227874 # Dynamic Lights
       - 238891 # Dynamic Surroundings
       - 309318 # Dynamic Surroundings: HUD
       - 366140 # Dynamic View
