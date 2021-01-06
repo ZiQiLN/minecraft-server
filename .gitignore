@@ -51,3 +51,7 @@ modpack/overrides/config/toughasnails/material_temperature.json
 modpack/overrides/config/toughasnails/block_temperature.json
 modpack/overrides/config/toughasnails/armor_temp_modifiers.json
 modpack/overrides/config/tweakersconstruct.cfg
+modpack/overrides/config/cofh/world/03_thermalfoundation_clathrates.json
+modpack/overrides/config/cofh/world/01_thermalfoundation_ores.json
+modpack/overrides/config/cofh/world/02_thermalfoundation_oil.json
+modpack/overrides/config/cofh/world/00_minecraft.json

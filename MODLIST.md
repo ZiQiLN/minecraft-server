@@ -14,8 +14,9 @@
 
 ### Energy and Technology
 - [EnderIO]()
-- [EnderIO: Endergy]()
-- [EnderIO: Zoo](https://www.curseforge.com/minecraft/mc-mods/ender-zoo)
+    - [EnderIO: Endergy]()
+    - [EnderIO: Zoo](https://www.curseforge.com/minecraft/mc-mods/ender-zoo)
+- [Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation)
 
 ### Tools, Armor and Eqiupment
 - [Tinker Consturct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
