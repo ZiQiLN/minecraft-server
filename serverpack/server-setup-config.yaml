@@ -24,6 +24,7 @@ install:
       - 231275 # Ding
       - 238222 # Just Enough Items (JEI)
       - 267939 # Just Enough Harvestcraft (JEI-Addon)
+      - 291786 # Thinker's JEI (JEI-Addon)
       - 229302 # Custom Loading Screen
       - 292785 # VanillaFix
       - 238372 # Neat
