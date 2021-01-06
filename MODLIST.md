@@ -21,6 +21,7 @@
     - [Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics)
     - [Thermal Innovation](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation)
     - [Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation)
+- [Applied Energetics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
 
 ### Tools, Armor and Eqiupment
 - [Tinker Consturct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
