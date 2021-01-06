@@ -3,16 +3,52 @@ version: '3.7'
 services:
   minecraft:
     image: itzg/minecraft-server
-    volumes:
-    - ./modpacks:/modpacks:ro
     environment:
+    
+      # Server Meta-Configuration
       EULA: "true"
       ONLINE_MODE: "false"
-      MEMORY: '6G'
+      SERVER_NAME: "The Mighty Alchemist's Quest"
+      DIFFICULTY: "hard"
+      OPS: "ziqiln"
+      # ICON: <URL>
+      MAX_PLAYERS: 1337
+    
+      # Performance Configuration
+      ENABLE_AUTOPAUSE: "true"
+      MAX_TICK_TIME: "10"
+      MAX_MEMORY: '14G'
+      USE_AIKAR_FLAGS: 'true'
+
+      # World Configuration
       LEVEL_TYPE: "BIOMESOP"
+      SEED: "7964 109 5940"
+      
+      # Server Mode
       TYPE: CURSEFORGE
       CF_SERVER_MOD: https://media.forgecdn.net/files/3158/95/MA-master-605e2c5.460869203.zip
+      
+      # RCON
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "testing"
+      RCON_PORT: 28016
+    
     tty: true
     restart: 'unless-stopped'
     ports:
       - 25565:25565
+      - 8080:8080 # Web-broser Map
+    volumes:
+      - "minecraft-data:/data"
+  
+  rcon:
+    image: itzg/rcon
+    ports:
+      - "4326:4326"
+      - "4327:4327"
+    volumes:
+      - "rcon:/opt/rcon-web-admin/db"
+
+volumes:
+  minecraft-data: {}
+  rcon: {}
