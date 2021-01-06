@@ -7,8 +7,9 @@ The Mystic Alchemist's Modpack is innovative Minecraft Forge modpack related to 
 ## Features
 
 - Stunning new biomes by [Biomes'O'Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
-- New [Chisel}()-based blocks and furnitures ([Bibliocraft]()) to make your buildings awesome.
-- New structures and dungeons to discover, powered by [Rougelike Dungeons]()
+- New [Chisel]()-based blocks and furnitures ([Bibliocraft]()) to make your buildings awesome.
+- New structures and dungeons to discover, powered by [Rougelike Dungeons]() and [Reccurrent Complex]()
+- Interesting underground life with upgraded caves, dungeons and mining mechanics.
 - Unique tool crafting experience with [Thinker's Construct]() and [Tetra]()
 
 ## Usage
@@ -22,7 +23,7 @@ TBC
 
 - **Minium allocated RAM**: 6GB
 - **Recommended allocated RAM**: 8GB
-- **Optifine**: OptiFine HD U F5
+- **Optifine**: Support for OptiFine HD U F5 (not included)
 
 ## Credits
 Modpack was build by [@ziqiln](https://github.com/ziqiln) with usage of code published in other repositories (for building Docker-backed Server) like [itzg/minecraft-server](https://github.com/itzg/docker-minecraft-server).
