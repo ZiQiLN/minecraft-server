@@ -23,6 +23,13 @@
     - [Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation)
 - [Applied Energetics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
 - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
+- [Project RED]()
+    - [Project Red: Base]()
+    - [Project Red: Lighting]()
+    - [Project Red: Fabrication]()
+    - [Project Red: Mechanical]()
+    - [Project Red: World]()
+    - [Project Red: Integration]()
 
 ### Tools, Armor and Eqiupment
 - [Tinker Consturct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)

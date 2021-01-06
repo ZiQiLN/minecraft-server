@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "The Mystic Alchemist's Modpack",
-  "version": "0.0.1-alpha.11",
+  "version": "0.0.1-alpha.10",
   "author": "",
   "files": [
     {
@@ -285,6 +285,11 @@
       "required": true
     },
     {
+      "projectID": 228702,
+      "fileID": 2745545,
+      "required": true
+    },
+    {
       "projectID": 227874,
       "fileID": 2563244,
       "required": true
@@ -335,8 +340,18 @@
       "required": true
     },
     {
+      "projectID": 229002,
+      "fileID": 2735197,
+      "required": true
+    },
+    {
       "projectID": 304346,
       "fileID": 3124450,
+      "required": true
+    },
+    {
+      "projectID": 230111,
+      "fileID": 2745547,
       "required": true
     },
     {
@@ -410,13 +425,38 @@
       "required": true
     },
     {
+      "projectID": 229045,
+      "fileID": 2745548,
+      "required": true
+    },
+    {
       "projectID": 229876,
       "fileID": 2483393,
       "required": true
     },
     {
+      "projectID": 229046,
+      "fileID": 2745549,
+      "required": true
+    },
+    {
+      "projectID": 229048,
+      "fileID": 2745550,
+      "required": true
+    },
+    {
+      "projectID": 229049,
+      "fileID": 2745551,
+      "required": true
+    },
+    {
       "projectID": 280294,
       "fileID": 3042760,
+      "required": true
+    },
+    {
+      "projectID": 229050,
+      "fileID": 2745546,
       "required": true
     },
     {
@@ -467,6 +507,11 @@
     {
       "projectID": 248453,
       "fileID": 2785465,
+      "required": true
+    },
+    {
+      "projectID": 258426,
+      "fileID": 2755790,
       "required": true
     },
     {
