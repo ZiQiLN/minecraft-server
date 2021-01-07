@@ -48,12 +48,12 @@ install:
       - 241420 # OfflineSkins
       - 280294 # FPS Reducer
       - 240633 # Inventory Sorter
+      - 271740 # ToastControl
       - 308702 #Mod Menu
       - 313219 #Health Overlay
       - 317514 #Mouse Wheelie
       - 325492 #Light Overlay
       - 325625 #Roughly Enough Resources
-      - 335493 #Dynamic FPS
       - 353641 #JumpOverFences
       - 354047 #Ok Zoomer
       - 355583 #Advancements Enlarger

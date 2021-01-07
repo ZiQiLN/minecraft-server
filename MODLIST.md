@@ -118,3 +118,4 @@
 - [OfflineSkins]()
 - [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
 - [InventorySorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter)
+- [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control)
