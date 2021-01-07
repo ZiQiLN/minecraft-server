@@ -86,13 +86,14 @@ install:
 launch:
   spongefix: no
   maxRam: 3G
+  minRam: 1G
   ramDisk: no
   checkOffline: true
   autoRestart: yes
   crashLimit: 10
   crashTimer: 60min
   preJavaArgs: ~
-  startFile: forge-{{@mcversion@}}-{{@loaderversion@}}-universal.jar
+  startFile: forge-{{@mcversion@}}-{{@loaderversion@}}.jar
   forcedJavaPath: ~
   javaArgs:
     - "-XX:+UseG1GC"
