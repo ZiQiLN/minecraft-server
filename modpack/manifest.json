@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "The Mystic Alchemist's Modpack",
-  "version": "0.0.1-alpha.10",
+  "version": "0.0.1-alpha.11",
   "author": "",
   "files": [
     {
@@ -452,6 +452,11 @@
     {
       "projectID": 229302,
       "fileID": 2783190,
+      "required": true
+    },
+    {
+      "projectID": 309516,
+      "fileID": 2949667,
       "required": true
     },
     {

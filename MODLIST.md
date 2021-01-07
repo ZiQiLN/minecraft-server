@@ -13,6 +13,9 @@
 - [Rougelike Dungeons](https://www.curseforge.com/minecraft/mc-mods/roguelike-dungeons)
 - [Dynamic Trees]()
 
+# RPG & Progression
+- [Bountyful](https://www.curseforge.com/minecraft/mc-mods/bountiful)
+
 ### Energy and Technology
 - [EnderIO]()
     - [EnderIO: Endergy]()
