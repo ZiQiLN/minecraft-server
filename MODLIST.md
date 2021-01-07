@@ -53,7 +53,7 @@
 - [HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft)
 - [Skewers](https://www.curseforge.com/minecraft/mc-mods/skewers)
 
-### Materials & Ores
+### Materials, Structures & Ores
 - [OreExcavation](https://www.curseforge.com/minecraft/mc-mods/ore-excavation)
 - [More Plates](https://www.curseforge.com/minecraft/mc-mods/moreplates)
 - [Oreberries](https://www.curseforge.com/minecraft/mc-mods/oreberries)
@@ -62,6 +62,7 @@
 - [Modern Metals](https://www.curseforge.com/minecraft/mc-mods/modern-metals)
 - [Nether Metals](https://www.curseforge.com/minecraft/mc-mods/nether-metals)
 - [End Metals](https://www.curseforge.com/minecraft/mc-mods/end-metals)
+- [Bibliocraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft)
 
 ### Storage
 - [Vials](https://www.curseforge.com/minecraft/mc-mods/vials)
