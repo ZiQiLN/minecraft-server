@@ -1,8 +1,12 @@
 version: '3.7'
 
-# Light version of docker-compose dedicated for small deployments to play with friends.
+# Production-ready docker-compose file for solutions that prefer usage of Docker instead Kubernetes.
+# However, I would like to recommend Kubernetes when using Bungeecord.
 
 services:
+
+  # Core Minecraft Server Service
+
   minecraft:
     image: itzg/minecraft-server
     environment:
@@ -18,9 +22,9 @@ services:
       MAX_PLAYERS: 1337
     
       # Performance Configuration
-      # ENABLE_AUTOPAUSE: "true"
-      # MAX_TICK_TIME: "20"
-      MAX_MEMORY: '3G'
+      ENABLE_AUTOPAUSE: "true"
+      MAX_TICK_TIME: "35"
+      MAX_MEMORY: '6G'
       USE_AIKAR_FLAGS: 'false'
 
       # World Configuration
@@ -29,7 +33,7 @@ services:
       
       # Server Mode
       TYPE: CURSEFORGE
-      CF_SERVER_MOD: /modpacks/serverpack.zip
+      CF_SERVER_MOD: 'https://media.forgecdn.net/files/3161/198/MAS-0.0.1-alpha.12.1.zip'
       CF_BASE_DIR: /data
       
       # Utility Configuration
@@ -40,9 +44,10 @@ services:
     ports:
       - 25565:25565
     volumes:
-      - "./modpacks:/modpacks:ro"
-      - "datx:/data"
+      - "mc-data:/data"
 
+  # bungeecord:
+  #   image: itzg/bungeecord
 
 volumes:
-  datx: {}
+  mc-data: {}
