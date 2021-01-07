@@ -29,7 +29,7 @@ services:
       
       # Server Mode
       TYPE: CURSEFORGE
-      CF_SERVER_MOD: https://media.forgecdn.net/files/3158/95/MA-master-605e2c5.460869203.zip
+      CF_SERVER_MOD: https://media.forgecdn.net/files/3160/983/MAS-0.0.1-alpha.12.zip
       
       # RCON
       ENABLE_RCON: "true"
