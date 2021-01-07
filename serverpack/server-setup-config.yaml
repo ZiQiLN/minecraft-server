@@ -14,7 +14,7 @@ install:
   installerArguments:
     - "--installServer"
 
-  modpackUrl: https://media.forgecdn.net/files/3160/972/MA-0.0.1-alpha.12.zip
+  modpackUrl: https://media.forgecdn.net/files/3161/14/MA-0.0.1-alpha.12.zip
   modpackFormat: curse
 
   formatSpecific:
@@ -88,7 +88,7 @@ launch:
   maxRam: 3G
   minRam: 1G
   ramDisk: no
-  checkOffline: true
+  checkOffline: false
   autoRestart: yes
   crashLimit: 10
   crashTimer: 60min

@@ -32,9 +32,9 @@ services:
       CF_SERVER_MOD: https://github.com/ZiQiLN/mystic-alchemists/releases/download/v0.0.1-alpha.12/MAS-0.0.1-alpha.12.zip
       
       # RCON
-      ENABLE_RCON: "true"
-      RCON_PASSWORD: "testing"
-      RCON_PORT: 28016
+      # ENABLE_RCON: "true"
+      # RCON_PASSWORD: "testing"
+      # RCON_PORT: 28016
 
       # Utility Configuration
       REMOVE_OLD_MODS: "true"
@@ -46,14 +46,14 @@ services:
     volumes:
       - "minecraft-data:/data"
   
-  rcon:
-    image: itzg/rcon
-    ports:
-      - "4326:4326"
-      - "4327:4327"
-    volumes:
-      - "rcon:/opt/rcon-web-admin/db"
+  # rcon:
+  #   image: itzg/rcon
+  #   ports:
+  #     - "4326:4326"
+  #     - "4327:4327"
+  #   volumes:
+  #     - "rcon:/opt/rcon-web-admin/db"
 
 volumes:
   minecraft-data: {}
-  rcon: {}
+  # rcon: {}
