@@ -109,3 +109,4 @@
 - [Better Foliage](https://www.curseforge.com/minecraft/mc-mods/better-foliage)
 - [OfflineSkins]()
 - [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)
+- [InventorySorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter)

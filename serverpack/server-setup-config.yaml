@@ -45,6 +45,7 @@ install:
       - 248453 # Shadowfacts' Forgelin (Better Foliage Library)
       - 241420 # OfflineSkins
       - 280294 # FPS Reducer
+      - 240633 # Inventory Sorter
       - 308702 #Mod Menu
       - 313219 #Health Overlay
       - 317514 #Mouse Wheelie
