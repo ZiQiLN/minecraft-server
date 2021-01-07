@@ -1,0 +1,115 @@
+---
+
+# Persistent Volume Clain dedicated for world and player's data
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: minecraft-data-pvc
+spec:
+  storageClassName: managed
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 16Gi
+
+---
+
+# Load Balancer service dedicated for Bungeecord
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: bungeecord-lb
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 25565
+      targetPort: 25577
+  selector:
+    app: minecraft-bungeecord
+
+---
+
+# Bungeecord deployment dedicated for Magma Mainframe
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bungeecord
+  labels:
+    app: minecraft-bungeecord
+spec:
+  selector:
+    matchLabels:
+      app: minecraft-bungeecord
+  template:
+    metadata:
+      labels:
+        app: minecraft-bungeecord
+    spec:
+      containers:
+        - name: bungeecord
+          image: itzg/bungeecord
+          imagePullPolicy: Always
+          tty: true
+          stdin: true
+          ports:
+            - containerPort: 25565
+          env:
+            - name: TYPE
+              value: 'CUSTOM'
+            - name: BUNGEE_JAR_URL
+              value: "https://github.com/HexagonMC/BungeeCord/releases/download/v271/BungeeCord.jar"
+            
+
+---
+
+# Magma Mainframe Service from Bungeecord
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: magma
+spec:
+  ports:
+    - port: 25565
+  selector:
+    app: magma
+
+---
+
+# Deployment of Magma Mainframe
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: magma
+  labels:
+    app: magma
+spec:
+  selector:
+    matchLabels:
+      app: magma
+  template:
+    metadata:
+      labels:
+        app: magma
+    spec:
+        volumes:
+          - name: magma-worlds
+            persistentVolumeClaim:
+                claimName: minecraft-data-pvc
+        containers:
+          - name: magma
+            image: itzg/minecraft-server
+            imagePullPolicy: Always
+            tty: true
+            stdin: true
+            env:
+              - name: EULA
+                value: 'true'
+            volumeMounts:
+              - mountPath: /data/worlds
+                name: magma-worlds
