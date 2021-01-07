@@ -84,16 +84,14 @@ install:
   spongeBootstrapper: https://github.com/simon816/SpongeBootstrap/releases/download/v0.7.1/SpongeBootstrap-0.7.1.jar
 
 launch:
-  spongefix: no
-  maxRam: 3G
-  minRam: 1G
   ramDisk: no
-  checkOffline: false
+  checkOffline: no
+  maxRam: 6G
   autoRestart: yes
   crashLimit: 10
   crashTimer: 60min
   preJavaArgs: ~
-  startFile: forge-{{@mcversion@}}-{{@loaderversion@}}.jar
+  startFile: forge-{{@mcversion@}}-{{@loaderversion@}}-universal.jar
   forcedJavaPath: ~
   javaArgs:
     - "-XX:+UseG1GC"
