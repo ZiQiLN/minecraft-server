@@ -14,7 +14,7 @@ install:
   installerArguments:
     - "--installServer"
 
-  modpackUrl: https://media.forgecdn.net/files/3160/116/MA-465688992.zip
+  modpackUrl: https://media.forgecdn.net/files/3160/972/MA-0.0.1-alpha.12.zip
   modpackFormat: curse
 
   # Settings which are specific to the format used, might not be needed in some casese
