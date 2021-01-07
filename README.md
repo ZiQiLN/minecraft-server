@@ -23,7 +23,7 @@ TBC
 
 - **Minium allocated RAM**: 6GB
 - **Recommended allocated RAM**: 8GB
-- **Optifine**: Support for OptiFine HD U F5 (not included)
+- [**Optifine**](OPTIFINE.md): Partial Support for OptiFine HD U F5 (not included
 
 ## Credits
 Modpack was build by [@ziqiln](https://github.com/ziqiln) with usage of code published in other repositories (for building Docker-backed Server) like [itzg/minecraft-server](https://github.com/itzg/docker-minecraft-server).

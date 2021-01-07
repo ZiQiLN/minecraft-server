@@ -1,0 +1,1 @@
+Fast Render, Anisotropic Filtering and Antialiasing has to be turned off.
