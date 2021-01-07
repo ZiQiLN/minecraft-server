@@ -13,6 +13,7 @@
 - [Recurrent Complex](https://www.curseforge.com/minecraft/mc-mods/recurrent-complex)
 - [Rougelike Dungeons](https://www.curseforge.com/minecraft/mc-mods/roguelike-dungeons)
 - [Dynamic Trees]()
+- [Lumen](https://www.curseforge.com/minecraft/mc-mods/lumen)
 
 # RPG & Progression
 - [Bountyful](https://www.curseforge.com/minecraft/mc-mods/bountiful)
