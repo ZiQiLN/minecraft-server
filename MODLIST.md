@@ -77,6 +77,7 @@
 - [The Weirding Gadget](https://www.curseforge.com/minecraft/mc-mods/the-weirding-gadget)
 - [Passable Leaves](https://www.curseforge.com/minecraft/mc-mods/passable-leaves)
 - [Antique Atlas](https://www.curseforge.com/minecraft/mc-mods/antique-atlas)
+- [Realistic Item Drops]
 
 ### Server Mods
 - [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) 3.5.106
