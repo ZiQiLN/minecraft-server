@@ -29,7 +29,8 @@ services:
       
       # Server Mode
       TYPE: CURSEFORGE
-      CF_SERVER_MOD: https://github.com/ZiQiLN/mystic-alchemists/releases/download/v0.0.1-alpha.12/MAS-0.0.1-alpha.12.zip
+      CF_SERVER_MOD: serverpack.zip
+      CF_BASE_DIR: '/data'
       
       # RCON
       # ENABLE_RCON: "true"
@@ -44,16 +45,9 @@ services:
     ports:
       - 25565:25565
     volumes:
-      - "minecraft-data:/data"
-  
-  # rcon:
-  #   image: itzg/rcon
-  #   ports:
-  #     - "4326:4326"
-  #     - "4327:4327"
-  #   volumes:
-  #     - "rcon:/opt/rcon-web-admin/db"
+      - "./local:/data"
+
 
 volumes:
-  minecraft-data: {}
-  # rcon: {}
+  data: {}
+  rcon: {}
