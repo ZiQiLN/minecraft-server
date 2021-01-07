@@ -20,7 +20,7 @@ services:
       # Performance Configuration
       ENABLE_AUTOPAUSE: "true"
       MAX_TICK_TIME: "10"
-      MAX_MEMORY: '14G'
+      MAX_MEMORY: '3G'
       USE_AIKAR_FLAGS: 'true'
 
       # World Configuration
@@ -29,12 +29,15 @@ services:
       
       # Server Mode
       TYPE: CURSEFORGE
-      CF_SERVER_MOD: https://media.forgecdn.net/files/3160/983/MAS-0.0.1-alpha.12.zip
+      CF_SERVER_MOD: https://github.com/ZiQiLN/mystic-alchemists/releases/download/v0.0.1-alpha.12/MAS-0.0.1-alpha.12.zip
       
       # RCON
       ENABLE_RCON: "true"
       RCON_PASSWORD: "testing"
       RCON_PORT: 28016
+
+      # Utility Configuration
+      REMOVE_OLD_MODS: "true"
     
     tty: true
     restart: 'unless-stopped'

@@ -17,9 +17,7 @@ install:
   modpackUrl: https://media.forgecdn.net/files/3160/972/MA-0.0.1-alpha.12.zip
   modpackFormat: curse
 
-  # Settings which are specific to the format used, might not be needed in some casese
   formatSpecific:
-    # optional paramenter used for curse to specify a whole project to ignore (mostly if it is client side only)
     ignoreProject:
       - 231275 # Ding
       - 238222 # Just Enough Items (JEI)
@@ -86,9 +84,10 @@ install:
   spongeBootstrapper: https://github.com/simon816/SpongeBootstrap/releases/download/v0.7.1/SpongeBootstrap-0.7.1.jar
 
 launch:
+  spongefix: no
+  maxRam: 3G
   ramDisk: no
-  checkOffline: no
-  maxRam: 6G
+  checkOffline: true
   autoRestart: yes
   crashLimit: 10
   crashTimer: 60min
