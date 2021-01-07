@@ -1,5 +1,7 @@
 version: '3.7'
 
+# Light version of docker-compose dedicated for small deployments to play with friends.
+
 services:
   minecraft:
     image: itzg/minecraft-server
@@ -11,6 +13,7 @@ services:
       SERVER_NAME: "The Mighty Alchemist's Quest"
       DIFFICULTY: "hard"
       OPS: "ziqiln"
+      MOTD: "\u00a76Quest of Mighty Alchemist\u2122\u00a7r, Community Beta Server\nRrelease \u00a790.0.1-alpha.11 \u00a7rby \u00a7kziqiln\u00a7r\n\n"
       # ICON: <URL>
       MAX_PLAYERS: 1337
     
@@ -37,7 +40,6 @@ services:
     restart: 'unless-stopped'
     ports:
       - 25565:25565
-      - 8080:8080 # Web-broser Map
     volumes:
       - "minecraft-data:/data"
   
