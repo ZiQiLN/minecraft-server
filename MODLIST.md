@@ -8,6 +8,7 @@
 - [YUNG's Law](https://www.curseforge.com/minecraft/mc-mods/yungs-law)
 - [Save my Stronghold!](https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold)
 - [Serene Seasons](https://www.curseforge.com/minecraft/mc-mods/serene-seasons)
+- [Streams](https://www.curseforge.com/minecraft/mc-mods/streams)
 - [Worley's Caves]()
 - [Recurrent Complex](https://www.curseforge.com/minecraft/mc-mods/recurrent-complex)
 - [Rougelike Dungeons](https://www.curseforge.com/minecraft/mc-mods/roguelike-dungeons)
