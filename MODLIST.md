@@ -17,6 +17,7 @@
 - [Bountyful](https://www.curseforge.com/minecraft/mc-mods/bountiful)
 - [TekTopia](https://www.curseforge.com/minecraft/mc-mods/tektopia)
 - [Reskillable](https://www.curseforge.com/minecraft/mc-mods/reskillable)
+    - [Compatskills](https://www.curseforge.com/minecraft/mc-mods/compatskills)
 
 ### Energy and Technology
 - [EnderIO]()
