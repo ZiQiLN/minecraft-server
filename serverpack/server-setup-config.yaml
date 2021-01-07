@@ -30,6 +30,7 @@ install:
       - 238372 # Neat
       - 253449 # Hwyla
       - 224712 # Wawla
+      - 79287 # Hwyla: Harvestability
       - 32274 # JourneyMap
       - 60089 # Mouse Tweaks
       - 248787 # AppleSkin
