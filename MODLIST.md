@@ -65,6 +65,7 @@
 
 ### Storage
 - [Vials](https://www.curseforge.com/minecraft/mc-mods/vials)
+- [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
 
 ### Utility Mods
 - [Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights)
