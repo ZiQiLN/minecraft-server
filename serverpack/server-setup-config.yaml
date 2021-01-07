@@ -27,6 +27,7 @@ install:
       - 291786 # Thinker's JEI (JEI-Addon)
       - 303122 # Just Enough Throwing in Liquids (JEI-Addon)
       - 240630 # Just Enough Resources (JEI-Addon)
+      - 265917 # JEI Integrations (JEI-Addon)
       - 229302 # Custom Loading Screen
       - 292785 # VanillaFix
       - 238372 # Neat
