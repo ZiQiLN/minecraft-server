@@ -16,7 +16,9 @@ The Mystic Alchemist's Modpack is innovative Minecraft Forge modpack related to 
 Complete guide for installing client-side mods with [CurseForge]() and building server based on [Docker]() or if somebody prefers production-like environment [Kubernetes]() with [Skaffold]().
 
 ```
-TBC
+$ git clone https://github.com/ZiQiLN/mystic-alchemists.git
+$ cd mystic-alchemists
+$ cd docker-compose up -f "docker-compose.lite.yaml" 
 ```
 
 ## Recommendations
