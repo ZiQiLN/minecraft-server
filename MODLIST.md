@@ -80,6 +80,7 @@
 - [Antique Atlas](https://www.curseforge.com/minecraft/mc-mods/antique-atlas)
 - [Realistic Item Drops]()
 - [Back Tools](https://www.curseforge.com/minecraft/mc-mods/back-tools)
+- [SwingThroughGrass](https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass)
 
 ### Server Mods
 - [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) 3.5.106
