@@ -16,6 +16,7 @@
 # RPG & Progression
 - [Bountyful](https://www.curseforge.com/minecraft/mc-mods/bountiful)
 - [TekTopia](https://www.curseforge.com/minecraft/mc-mods/tektopia)
+- [Reskillable](https://www.curseforge.com/minecraft/mc-mods/reskillable)
 
 ### Energy and Technology
 - [EnderIO]()
