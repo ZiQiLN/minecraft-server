@@ -8,8 +8,19 @@
   ],
 
   "plugins": [
-    "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits",
+        "releaseRules": [
+          { "type": "gameplay", "release": "patch" },
+          { "type": "balance", "release": "patch" },
+          { "type": "feat", "release": "minor" },
+          { "type": "refactor", "release": false }
+        ]
+      }
+    ],
     [
       "@semantic-release/github",
       {
