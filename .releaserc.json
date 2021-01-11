@@ -1,21 +1,31 @@
 {
-        "branches": ["stable", {
-                "name": "master",
-                "prerelease": "true"
-        }],
+  "branches": [
+    "stable",
+    {
+      "name": "master",
+      "prerelease": "true"
+    }
+  ],
 
-        "plugins": [
-                "@semantic-release/commit-analyzer",
-                "@semantic-release/release-notes-generator",
-                [ "@semantic-release/github", {
-                        "assets": [
-                                {"path": "dist/curseprofile.zip", "label": "CurseForge Distribution {nextRelease.gitTag}",
-                                "name": "cursepack-${nextRelease.gitTag}"
-                                },
-                                {"path": "dist/serverpack.zip",
-                                "name": "server-${nextRelease.gitTag}",        
-                                "label": "Server Distribution {nextRelease.gitTag}"}
-                        ]
-                }
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "dist/curseprofile.zip",
+            "label": "CurseForge Distribution {nextRelease.gitTag}",
+            "name": "cursepack-${nextRelease.gitTag}"
+          },
+          {
+            "path": "dist/serverpack.zip",
+            "name": "server-${nextRelease.gitTag}",
+            "label": "Server Distribution {nextRelease.gitTag}"
+          }
         ]
-]}
+      }
+    ]
+  ]
+}
