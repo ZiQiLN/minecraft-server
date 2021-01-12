@@ -46,11 +46,11 @@
           {
             "path": "dist/curseprofile.zip",
             "label": "CurseForge Distribution {nextRelease.gitTag}",
-            "name": "cursepack-${nextRelease.gitTag}"
+            "name": "mysticalchemists-${nextRelease.gitTag}"
           },
           {
             "path": "dist/serverpack.zip",
-            "name": "server-${nextRelease.gitTag}",
+            "name": "mysticalchemists.server-${nextRelease.gitTag}",
             "label": "Server Distribution {nextRelease.gitTag}"
           }
         ]
