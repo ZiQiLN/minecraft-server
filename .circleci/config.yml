@@ -7,8 +7,11 @@ orbs:
 jobs:
   build:
     docker:
-      - image: 'circleci/node:10'
+      - image: "circleci/node:10"
     steps:
+      - checkout
+      - run: yarn
+      - run: yarn semantic-release
       - run: echo "hello"
 
 workflows:
