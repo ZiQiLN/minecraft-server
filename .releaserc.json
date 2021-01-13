@@ -4,10 +4,6 @@
       "name": "master",
       "channel": "alpha",
       "prerelease": "alpha"
-    },
-    {
-      "name": "stable",
-      "prerelease": "false"
     }
   ],
 
