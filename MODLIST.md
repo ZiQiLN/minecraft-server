@@ -1,6 +1,7 @@
 # The Mystic Alchemist's Modpack: The Modlist
 
 ### World-Generation Mods
+
 - [Biomes O'Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty) 7.0.1.2441
 - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark) 1.6.179 and [Quark Oddities](https://www.curseforge.com/minecraft/mc-mods/quark-oddities)
 - [YUNG's Better Mineshafts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
@@ -16,31 +17,34 @@
 - [Lumen](https://www.curseforge.com/minecraft/mc-mods/lumen)
 
 # RPG & Progression
+
 - [Bountyful](https://www.curseforge.com/minecraft/mc-mods/bountiful)
 - [TekTopia](https://www.curseforge.com/minecraft/mc-mods/tektopia)
 - [Reskillable](https://www.curseforge.com/minecraft/mc-mods/reskillable)
-    - [Compatskills](https://www.curseforge.com/minecraft/mc-mods/compatskills)
+  - [Compatskills](https://www.curseforge.com/minecraft/mc-mods/compatskills)
 
 ### Energy and Technology
+
 - [EnderIO]()
-    - [EnderIO: Endergy]()
-    - [EnderIO: Zoo](https://www.curseforge.com/minecraft/mc-mods/ender-zoo)
+  - [EnderIO: Endergy]()
+  - [EnderIO: Zoo](https://www.curseforge.com/minecraft/mc-mods/ender-zoo)
 - [Thermal Foundation](https://www.curseforge.com/minecraft/mc-mods/thermal-foundation)
-    - [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion)
-    - [Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics)
-    - [Thermal Innovation](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation)
-    - [Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation)
+  - [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion)
+  - [Thermal Dynamics](https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics)
+  - [Thermal Innovation](https://www.curseforge.com/minecraft/mc-mods/thermal-innovation)
+  - [Thermal Cultivation](https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation)
 - [Applied Energetics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
 - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
 - [Project RED]()
-    - [Project Red: Base]()
-    - [Project Red: Lighting]()
-    - [Project Red: Fabrication]()
-    - [Project Red: Mechanical]()
-    - [Project Red: World]()
-    - [Project Red: Integration]()
+  - [Project Red: Base]()
+  - [Project Red: Lighting]()
+  - [Project Red: Fabrication]()
+  - [Project Red: Mechanical]()
+  - [Project Red: World]()
+  - [Project Red: Integration]()
 
 ### Tools, Armor and Eqiupment
+
 - [Tinker Consturct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
 - [Tinker Complement](https://www.curseforge.com/minecraft/mc-mods/tinkers-complement)
 - [Construct's Aromory](https://www.curseforge.com/minecraft/mc-mods/constructs-armory)
@@ -51,6 +55,7 @@
 - [Backpacked](https://www.curseforge.com/minecraft/mc-mods/backpacked)
 
 ### Food & Hunger Mechanics
+
 - [Tough as Nails](https://www.curseforge.com/minecraft/mc-mods/tough-as-nails)
 - [Spice of Life](https://www.curseforge.com/minecraft/mc-mods/the-spice-of-life)
 - [Hunger Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul)
@@ -58,6 +63,7 @@
 - [Skewers](https://www.curseforge.com/minecraft/mc-mods/skewers)
 
 ### Materials, Structures & Ores
+
 - [OreExcavation](https://www.curseforge.com/minecraft/mc-mods/ore-excavation)
 - [More Plates](https://www.curseforge.com/minecraft/mc-mods/moreplates)
 - [Oreberries](https://www.curseforge.com/minecraft/mc-mods/oreberries)
@@ -69,10 +75,12 @@
 - [Bibliocraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft)
 
 ### Storage
+
 - [Vials](https://www.curseforge.com/minecraft/mc-mods/vials)
 - [Storage Drawers](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
 
 ### Utility Mods
+
 - [Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights)
 - [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements)
 - [NotEnoughIDs](https://www.curseforge.com/minecraft/mc-mods/notenoughids)
@@ -88,24 +96,26 @@
 - [SwingThroughGrass](https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass)
 
 ### Server Mods
+
 - [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) 3.5.106
 - [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor-forge) 0.2.7
 - [Tick Dynamic](https://www.curseforge.com/minecraft/mc-mods/tick-dynamic)
 - [BetterFPS](https://www.curseforge.com/minecraft/mc-mods/betterfps)
 
 ### Client Improvements (Client-only Mods)
+
 - [Ding](https://www.curseforge.com/minecraft/mc-mods/ding) 1.0.2
 - [JEI](https://www.curseforge.com/minecraft/mc-mods/jei) 4.16.1.301
-    - [Just Enough Harvestcraft](https://www.curseforge.com/minecraft/mc-mods/just-enough-harvestcraft)
-    - [Tinker's JEI](https://www.curseforge.com/minecraft/mc-mods/tinkers-jei)
-    - [Just Enough Throwing in Liquids (JETIF)](https://www.curseforge.com/minecraft/mc-mods/jetif)
-    - [Just Enough Resources](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer)
+  - [Just Enough Harvestcraft](https://www.curseforge.com/minecraft/mc-mods/just-enough-harvestcraft)
+  - [Tinker's JEI](https://www.curseforge.com/minecraft/mc-mods/tinkers-jei)
+  - [Just Enough Throwing in Liquids (JETIF)](https://www.curseforge.com/minecraft/mc-mods/jetif)
+  - [Just Enough Resources](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer)
 - [Custom Loading Screen](https://www.curseforge.com/minecraft/mc-mods/better-loading-screen) 1.4.1
 - [FoamFix](https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod) 0.10.11
 - [VanillaFix](https://www.curseforge.com/minecraft/mc-mods/vanillafix) 1.0.10.150
 - [Neat](https://www.curseforge.com/minecraft/mc-mods/neat) 1.4.17
 - [Hwyla](https://www.curseforge.com/minecraft/mc-mods/hwyla)
-    - [Hwyla Harvestability](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability)
+  - [Hwyla Harvestability](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability)
 - [Wawla](https://www.curseforge.com/minecraft/mc-mods/wawla)
 - [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
 - [Appleskin](https://www.curseforge.com/minecraft/mc-mods/appleskin)
@@ -121,3 +131,4 @@
 - [InventorySorter](https://www.curseforge.com/minecraft/mc-mods/inventory-sorter)
 - [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control)
 - [EnchancedVisuals](https://www.curseforge.com/minecraft/mc-mods/enhancedvisuals)
+- [MainMenuScale](https://www.curseforge.com/minecraft/mc-mods/main-menu-scale/)
