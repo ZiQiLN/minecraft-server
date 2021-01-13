@@ -45,8 +45,8 @@
         "assets": [
           {
             "path": "dist/curseprofile.zip",
-            "label": "CurseForge Distribution {nextRelease.gitTag}",
-            "name": "kubick-${nextRelease.gitTag}"
+            "label": "kubick-${nextRelease.gitTag}",
+            "name": "kubick-${nextRelease.gitTag}.zip"
           }
         ]
       }
