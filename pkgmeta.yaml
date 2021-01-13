@@ -1,6 +1,6 @@
 # CurseForge Meta Configuration File
 
-package-as: "ma-@project-version@"
+package-as: "kubick-@project-version@"
 enable-nolib-creation: no
 
 ignore:
