@@ -1,5 +1,7 @@
 # Kubick (form. Mystic Alchemists)
 
+![CurseForge](https://cf.way2muchnoise.eu/431680.svg) ![CurseForge Versions](https://cf.way2muchnoise.eu/versions/431680.svg)
+
 The Mystic Alchemist's Modpack is innovative Minecraft Forge modpack related to building technical world with a bit of adventure.
 
 > Server currently is moved out from our k8s cluster because of issues with importing configuration, as a solution we've build a bare-metal server based on Docker, we aren't sure about final decision about production.
