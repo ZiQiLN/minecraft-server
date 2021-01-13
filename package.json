@@ -1,6 +1,6 @@
 {
   "name": "mystic-alchemists",
-  "version": "0.0.0-development",
+  "version": "0.0.1-alpha.12.3",
   "description": "Minecraft Server",
   "main": "index.js",
   "repository": "https://github.com/ZiQiLN/mystic-alchemists.git",

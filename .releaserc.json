@@ -1,9 +1,13 @@
 {
   "branches": [
-    "stable",
     {
       "name": "master",
-      "prerelease": "true"
+      "channel": "alpha",
+      "prerelease": "alpha"
+    },
+    {
+      "name": "stable",
+      "prerelease": "false"
     }
   ],
 
