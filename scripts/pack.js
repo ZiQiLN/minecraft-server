@@ -4,11 +4,7 @@ const archiver = require("archiver");
 
 var distDirectory = path.join(__dirname, "..", "dist");
 
-if (!fs.existsSync(distDirectory)) {
-  fs.mkdir(distDirectory, (e) => {
-    throw e;
-  });
-}
+fs.mkdirSync(distDirectory);
 
 var distArchive = path.join(__dirname, "..", "dist", "curseprofile.zip");
 

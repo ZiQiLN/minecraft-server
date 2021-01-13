@@ -8,6 +8,7 @@
   "license": "GNU-3",
   "private": true,
   "scripts": {
+    "pack": "node scripts/pack.js",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
