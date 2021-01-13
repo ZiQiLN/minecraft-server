@@ -11,6 +11,7 @@ jobs:
     steps:
       - checkout
       - run: yarn
+      - run: node scripts/pack.js
       - run: yarn semantic-release
 
 workflows:
