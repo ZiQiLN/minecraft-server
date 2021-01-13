@@ -1,4 +1,4 @@
-# The Mystic Alchemist's Modpack
+# Kubick (form. Mystic Alchemists)
 
 The Mystic Alchemist's Modpack is innovative Minecraft Forge modpack related to building technical world with a bit of adventure.
 
@@ -13,12 +13,13 @@ The Mystic Alchemist's Modpack is innovative Minecraft Forge modpack related to 
 - Unique tool crafting experience with [Thinker's Construct]() and [Tetra]()
 
 ## Usage
+
 Complete guide for installing client-side mods with [CurseForge]() and building server based on [Docker]() or if somebody prefers production-like environment [Kubernetes]() with [Skaffold]().
 
 ```
 $ git clone https://github.com/ZiQiLN/mystic-alchemists.git
 $ cd mystic-alchemists
-$ cd docker-compose up -f "docker-compose.lite.yaml" 
+$ cd docker-compose up -f "docker-compose.lite.yaml"
 ```
 
 ## Recommendations
@@ -28,4 +29,5 @@ $ cd docker-compose up -f "docker-compose.lite.yaml"
 - [**Optifine**](OPTIFINE.md): Partial Support for OptiFine HD U F5 (not included
 
 ## Credits
+
 Modpack was build by [@ziqiln](https://github.com/ziqiln) with usage of code published in other repositories (for building Docker-backed Server) like [itzg/minecraft-server](https://github.com/itzg/docker-minecraft-server).
