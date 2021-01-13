@@ -46,12 +46,7 @@
           {
             "path": "dist/curseprofile.zip",
             "label": "CurseForge Distribution {nextRelease.gitTag}",
-            "name": "mysticalchemists-${nextRelease.gitTag}"
-          },
-          {
-            "path": "dist/serverpack.zip",
-            "name": "mysticalchemists.server-${nextRelease.gitTag}",
-            "label": "Server Distribution {nextRelease.gitTag}"
+            "name": "kubick-${nextRelease.gitTag}"
           }
         ]
       }
