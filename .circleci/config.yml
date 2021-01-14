@@ -11,7 +11,7 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run: node scripts/pack.js
+      - run: node scripts/10-preparePackage.js
       - store_artifacts:
           path: ~/project/dist/curseprofile.zip
           destination: kubick.zip
