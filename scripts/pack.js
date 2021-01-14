@@ -21,9 +21,9 @@ output.on("error", function (err) {
 
 archive.pipe(output);
 
-var manifest = path.join(__dirname, "..", "manifest.json");
-var modlist = path.join(__dirname, "..", "modlist.html");
-var overrides = path.join(__dirname, "..", "overrides");
+var manifest = path.join(__dirname, "..", "src", "manifest.json");
+var modlist = path.join(__dirname, "..", "src", "modlist.html");
+var overrides = path.join(__dirname, "..", "src", "overrides");
 
 archive
   .append(fs.createReadStream(manifest), { name: "manifest.json" })
