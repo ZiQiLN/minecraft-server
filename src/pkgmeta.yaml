@@ -1,7 +1,7 @@
 # CurseForge Meta Configuration File
 
 package-as: "kubick-@project-version@"
-enable-nolib-creation: no
+enable-nolib-creation: yes
 
 ignore:
   - ".github"
