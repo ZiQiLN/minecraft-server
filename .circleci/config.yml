@@ -13,7 +13,7 @@ jobs:
       - run: yarn
       - run: node scripts/pack.js
       - store_artifacts:
-          path: /project/dist/curseprofile.zip
+          path: ~/project/dist/curseprofile.zip
           destination: kubick.zip
       - run: yarn semantic-release
 
