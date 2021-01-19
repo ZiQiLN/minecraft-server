@@ -25,6 +25,7 @@
     "archiver": "^5.2.0",
     "form-data": "^3.0.0",
     "got": "^11.8.1",
+    "signale": "^1.4.0",
     "stream-buffers": "^3.0.2"
   }
 }
