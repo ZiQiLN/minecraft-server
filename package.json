@@ -24,6 +24,7 @@
   "dependencies": {
     "archiver": "^5.2.0",
     "form-data": "^3.0.0",
-    "got": "^11.8.1"
+    "got": "^11.8.1",
+    "stream-buffers": "^3.0.2"
   }
 }

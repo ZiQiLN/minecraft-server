@@ -2,24 +2,32 @@
 version: 2.1
 
 orbs:
-  jira: circleci/jira@1.3.0
+    jira: circleci/jira@1.3.0
 
 jobs:
-  release:
-    docker:
-      - image: "circleci/node:10"
-    steps:
-      - checkout
-      - run: yarn
-      - run: node scripts/10-preparePackage.js
-      - store_artifacts:
-          path: ~/project/dist/curseprofile.zip
-          destination: kubick.zip
-      - run: yarn semantic-release
-
+    release:
+        docker:
+            - image: 'circleci/node:10'
+        steps:
+            - checkout
+            - run: yarn
+            - run: node scripts/10-preparePackage.js
+            - run: node scripts/20-semanticRelease.js
+            - run: node scripts/30-curseforgeUpload.js
+    # Builds package and stores artifact, which can be used in another jobs.
+    build:
+        docker:
+            - image: 'circleci/node:12'
+        steps:
+            - checkout
+            - run: yarn
+            - run: node scripts/10-preparePackage.js
+            - store_artifacts:
+                  path: ~/project/dist/curseprofile.zip
+                  destination: kubick.zip
 workflows:
-  release:
-    jobs:
-      - release:
-          post-steps:
-            - jira/notify
+    release:
+        jobs:
+            - release:
+                  post-steps:
+                      - jira/notify
