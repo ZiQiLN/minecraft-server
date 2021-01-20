@@ -1,11 +1,11 @@
 const semanticRelease = require('semantic-release')
 const path = require('path')
-const { WriteableStreamBuffer } = require('stream-buffers')
+const streamBuffers = require('stream-buffers')
 
 const semanticReleaseConfiguration = require('../.releaserc.json')
 
-const stdoutBuffer = WriteableStreamBuffer()
-const stderrBuffer = WriteableStreamBuffer()
+const stdoutBuffer = streamBuffers.WritableStreamBuffer()
+const stderrBuffer = streamBuffers.WriteableStreamBuffer()
 
 async function release() {
 	try {
