@@ -6,7 +6,7 @@ const stdoutBuffer = WritableStreamBuffer()
 const stderrBuffer = WritableStreamBuffer()
 
 try {
-	const result = await semanticRelease(path.join(__dirname, '..', '.releaserc.json'), {
+	const result = semanticRelease(path.join(__dirname, '..', '.releaserc.json'), {
 		// Run semantic-release from `/path/to/git/repo/root` without having to change local process `cwd` with `process.chdir()`
 		cwd: '/path/to/git/repo/root',
 		// Pass the variable `MY_ENV_VAR` to semantic-release without having to modify the local `process.env`
