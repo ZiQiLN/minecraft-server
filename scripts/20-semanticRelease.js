@@ -1,35 +1,40 @@
 const semanticRelease = require('semantic-release')
+const { WritableStreamBuffer } = require('stream-buffers')
 const path = require('path')
-const streamBuffers = require('stream-buffers')
 
-const semanticReleaseConfiguration = require('../.releaserc.json')
+const stdoutBuffer = WritableStreamBuffer()
+const stderrBuffer = WritableStreamBuffer()
 
-const stdoutBuffer = streamBuffers.WritableStreamBuffer()
-const stderrBuffer = streamBuffers.WriteableStreamBuffer()
+try {
+	const result = await semanticRelease(path.join(__dirname, '..', '.releaserc.json'), {
+		// Run semantic-release from `/path/to/git/repo/root` without having to change local process `cwd` with `process.chdir()`
+		cwd: '/path/to/git/repo/root',
+		// Pass the variable `MY_ENV_VAR` to semantic-release without having to modify the local `process.env`
+		env: { ...process.env, MY_ENV_VAR: 'MY_ENV_VAR_VALUE' },
+		// Store stdout and stderr to use later instead of writing to `process.stdout` and `process.stderr`
+		stdout: stdoutBuffer,
+		stderr: stderrBuffer,
+	})
 
-async function release() {
-	try {
-		const result = await semanticRelease(semanticReleaseConfiguration, {
-			cwd: path.join(__dirname, '..'),
-			stdout: stdoutBuffer,
-			stderr: stderrBuffer,
-		})
+	if (result) {
+		const { lastRelease, commits, nextRelease, releases } = result
 
-		if (result) {
-			const { lastRelease, commits, nextRelease, releases } = result
-			console.log(`Published ${nextRelease.type} release version ${nextRelease.version} containing ${commits.length} commits.`)
-			if (lastRelease.version) console.log(`The last release was "${lastRelease.version}".`)
-			// TODO: Version should be bumped in package metafiles
-			for (const release of release) console.log(`The release was published with plugin "${release.pluginName}".`)
-		} else {
-			console.log('No release published.')
+		console.log(`Published ${nextRelease.type} release version ${nextRelease.version} containing ${commits.length} commits.`)
+
+		if (lastRelease.version) {
+			console.log(`The last release was "${lastRelease.version}".`)
 		}
 
-		const logs = stdoutBuffer.getContentAsString('utf8')
-		const errors = stderrBuffer.getContentAsString('utf8')
-	} catch (err) {
-		console.error('The automated release failed with %0', err)
+		for (const release of releases) {
+			console.log(`The release was published with plugin "${release.pluginName}".`)
+		}
+	} else {
+		console.log('No release published.')
 	}
-}
 
-release()
+	// Get stdout and stderr content
+	const logs = stdoutBuffer.getContentsAsString('utf8')
+	const errors = stderrBuffer.getContentsAsString('utf8')
+} catch (err) {
+	console.error('The automated release failed with %O', err)
+}
