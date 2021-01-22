@@ -12,8 +12,7 @@ jobs:
             - checkout
             - run: yarn
             - run: node scripts/10-preparePackage.js
-            - run: node scripts/20-semanticRelease.js
-            - run: node scripts/30-curseforgeUpload.js
+            - run: node scripts/20-curseforgeUpload.js
     # Builds package and stores artifact, which can be used in another jobs.
     build:
         docker:
