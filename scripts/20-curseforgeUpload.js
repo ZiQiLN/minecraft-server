@@ -31,7 +31,7 @@ packageUploadForm.append('metafile', fs.createReadStream(modpackManifestPath))
 packageUploadForm.append('file', fs.createReadStream(modpackBundleOutput))
 
 const curseforgeClient = got.extend({
-	prefixUrl: 'minecraft.curseforge.com',
+	prefixUrl: 'https://minecraft.curseforge.com',
 	headers: {
 		'X-Api-Token': CF_TOKEN,
 	},
