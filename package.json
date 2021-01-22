@@ -27,6 +27,7 @@
     "got": "^11.8.1",
     "ora": "^5.2.0",
     "signale": "^1.4.0",
+    "simple-git": "^2.31.0",
     "stream-buffers": "^3.0.2"
   }
 }
