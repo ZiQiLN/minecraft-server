@@ -24,7 +24,7 @@ const packageUploadForm = new FormData()
 // TODO: Parse automatically generated changelog to string and upload it within body.
 packageUploadForm.append('changelog', 'WIP')
 packageUploadForm.append('changelogType', 'markdown')
-packageUploadForm.append('gameVersions', [6756])
+packageUploadForm.append('gameVersions', '6756')
 packageUploadForm.append('displayName', `kubick`)
 packageUploadForm.append('releaseType', 'alpha')
 packageUploadForm.append('metafile', fs.createReadStream(modpackManifestPath))
