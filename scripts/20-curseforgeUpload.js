@@ -22,13 +22,13 @@ const { modpackManifestPath, baseDirectory, modpackBundleOutput, CF_TOKEN } = re
 
 const packageUploadForm = new FormData()
 // TODO: Parse automatically generated changelog to string and upload it within body.
-form.append('changelog', 'WIPś')
-form.append('changelogType', 'markdown')
-form.append('gameVersions', [6756])
-form.append('displayName', `kubick`)
-form.append('releaseType', 'alpha')
-form.append('metafile', fs.createReadStream(modpackManifestPath))
-form.append('file', fs.createReadStream(modpackBundleOutput))
+packageUploadForm.append('changelog', 'WIP')
+packageUploadForm.append('changelogType', 'markdown')
+packageUploadForm.append('gameVersions', [6756])
+packageUploadForm.append('displayName', `kubick`)
+packageUploadForm.append('releaseType', 'alpha')
+packageUploadForm.append('metafile', fs.createReadStream(modpackManifestPath))
+packageUploadForm.append('file', fs.createReadStream(modpackBundleOutput))
 
 const curseforgeClient = got.extend({
 	prefixUrl: 'minecraft.curseforge.com',
