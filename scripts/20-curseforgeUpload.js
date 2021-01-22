@@ -6,7 +6,6 @@ const path = require('path')
 const FormData = require('form-data')
 
 const { modpackManifestPath, baseDirectory, modpackBundleOutput, CF_TOKEN } = require('./00-configuration')
-const releaseNotes = require('../CHANGELOG.md')
 
 // git.checkIsRepo()
 // 	.then((isRepo) => !isRepo && initialiseRepo(git))
@@ -23,7 +22,7 @@ const releaseNotes = require('../CHANGELOG.md')
 
 const packageUploadForm = new FormData()
 // TODO: Parse automatically generated changelog to string and upload it within body.
-form.append('changelog', releaseNotes)
+form.append('changelog', 'WIPś')
 form.append('changelogType', 'markdown')
 form.append('gameVersions', [6756])
 form.append('displayName', `kubick`)
