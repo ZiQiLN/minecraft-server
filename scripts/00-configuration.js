@@ -14,10 +14,12 @@ const modpackSourceDirectory = path.join(__dirname, '..', 'src')
 const serverSourceDirectory = path.join(__dirname, '..', 'serv')
 const modpackManifestPath = path.join(modpackSourceDirectory, 'manifest.json')
 const modpackOverridesDirectory = path.join(modpackSourceDirectory, 'overrides')
-const modpackBundleOutput = path.join(baseDirectory, 'dist', 'modpack.zip')
+const modpackBundleOutput = path.join(baseDirectory, 'dist', 'kubick.zip')
 
 module.exports = {
 	baseDirectory,
 	distDirectory,
 	modpackManifestPath,
+	modpackBundleOutput,
+	CF_TOKEN,
 }

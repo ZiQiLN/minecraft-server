@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const archiver = require('archiver')
-const { distDirectory } = require('./00-configuration')
+const { distDirectory, modpackManifestPath } = require('./00-configuration')
 
 fs.mkdirSync(distDirectory)
 
@@ -20,12 +20,11 @@ output.on('error', function (err) {
 
 archive.pipe(output)
 
-var manifest = path.join(__dirname, '..', 'src', 'manifest.json')
 var modlist = path.join(__dirname, '..', 'src', 'modlist.html')
 var overrides = path.join(__dirname, '..', 'src', 'overrides')
 
 archive
-	.append(fs.createReadStream(manifest), { name: 'manifest.json' })
+	.append(fs.createReadStream(modpackManifestPath), { name: 'manifest.json' })
 	.append(fs.createReadStream(modlist), { name: 'modlist.html' })
 	.directory(overrides, 'overrides')
 	.finalize()
