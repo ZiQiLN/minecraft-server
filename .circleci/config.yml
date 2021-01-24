@@ -12,7 +12,7 @@ jobs:
             - checkout
             - run: yarn
             - run: node scripts/10-preparePackage.js
-            - run: node scripts/20-curseforgeUpload.js
+            - run: yarn run semantic-release
     # Builds package and stores artifact, which can be used in another jobs.
     build:
         docker:
