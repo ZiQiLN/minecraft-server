@@ -30,8 +30,15 @@ workflows:
         jobs:
             - build
             - release:
-                  type: approval
                   requires:
                       - 'build'
                   post-steps:
                       - jira/notify
+        triggers:
+            - schedule:
+                  cron: '30 12 * * FRI'
+                  filters:
+                      branches:
+                          only:
+                              - master
+                              - beta
