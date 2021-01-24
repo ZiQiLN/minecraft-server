@@ -26,6 +26,11 @@ jobs:
                   path: ~/project/dist/curseprofile.zip
                   destination: kubick.zip
 workflows:
+    dev:
+        jobs:
+            - build:
+                  post-steps:
+                      - jira/notify
     nighly:
         jobs:
             - build
