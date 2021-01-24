@@ -36,7 +36,7 @@ workflows:
                       - jira/notify
         triggers:
             - schedule:
-                  cron: '30 12 * * FRI'
+                  cron: '30 12 * * 5'
                   filters:
                       branches:
                           only:
