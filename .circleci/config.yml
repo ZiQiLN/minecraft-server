@@ -13,6 +13,7 @@ jobs:
             - run: yarn
             - run: node scripts/10-preparePackage.js
             - run: yarn run semantic-release
+
     # Builds package and stores artifact, which can be used in another jobs.
     build:
         docker:
@@ -25,8 +26,12 @@ jobs:
                   path: ~/project/dist/curseprofile.zip
                   destination: kubick.zip
 workflows:
-    release:
+    nighly:
         jobs:
+            - build
             - release:
+                  type: approval
+                  requires:
+                      - 'build'
                   post-steps:
                       - jira/notify
