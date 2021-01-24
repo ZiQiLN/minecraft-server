@@ -10,7 +10,8 @@
 	"scripts": {
 		"postinstall": "husky install",
 		"pack": "node scripts/pack.js",
-		"semantic-release": "semantic-release"
+		"semantic-release": "semantic-release",
+		"commit": "cz"
 	},
 	"devDependencies": {
 		"@semantic-release/changelog": "^5.0.1",
