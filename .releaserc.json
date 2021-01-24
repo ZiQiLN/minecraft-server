@@ -1,55 +1,67 @@
 {
-  "branches": [
-    "stable",
-    {
-      "name": "master",
-      "prerelease": "alpha"
-    }
-  ],
-
-  "plugins": [
-    [
-      "@semantic-release/release-notes-generator",
-      {
-        "preset": "conventionalcommits",
-        "parserOpts": {
-          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
-        },
-        "writerOpts": {
-          "commitSort": ["subject", "scope"]
-        },
-        "presetConfig": "./.conventionalchangelog.json"
-      }
-    ],
-    [
-      "@semantic-release/changelog",
-      {
-        "changelogFile": "CHANGELOG.md"
-      }
-    ],
-    [
-      "@semantic-release/commit-analyzer",
-      {
-        "preset": "conventionalcommits",
-        "releaseRules": [
-          { "type": "gameplay", "release": "patch" },
-          { "type": "feat", "release": "minor" },
-          { "type": "fix", "release": "minor" },
-          { "type": "refactor", "release": false }
-        ]
-      }
-    ],
-    [
-      "@semantic-release/github",
-      {
-        "assets": [
-          {
-            "path": "dist/curseprofile.zip",
-            "label": "kubick-${nextRelease.gitTag}",
-            "name": "kubick-${nextRelease.gitTag}.zip"
-          }
-        ]
-      }
-    ]
-  ]
+	"branches": [
+		{
+			"name": "stable"
+		},
+		{
+			"name": "edge",
+			"prerelease": "beta"
+		},
+		{
+			"name": "master",
+			"prerelease": "alpha"
+		}
+	],
+	"tagFormat": "v${version}",
+	"plugins": [
+		[
+			"@semantic-release/release-notes-generator",
+			{
+				"preset": "conventionalcommits",
+				"parserOpts": {
+					"noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+				},
+				"writerOpts": {
+					"commitSort": ["subject", "scope"]
+				},
+				"presetConfig": "./.conventionalchangelog.json"
+			}
+		],
+		[
+			"@semantic-release/changelog",
+			{
+				"changelogFile": "CHANGELOG.md"
+			}
+		],
+		[
+			"@semantic-release/commit-analyzer",
+			{
+				"preset": "conventionalcommits",
+				"releaseRules": [
+					{ "type": "gameplay", "release": "patch" },
+					{ "type": "feat", "release": "minor" },
+					{ "type": "fix", "release": "minor" },
+					{ "type": "refactor", "release": false }
+				]
+			}
+		],
+		[
+			"@semantic-release/git",
+			{
+				"message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+			}
+		],
+		[
+			"@semantic-release/github",
+			{
+				"assets": [
+					{
+						"path": "dist/kubick.zip",
+						"label": "kubick-${nextRelease.gitTag}",
+						"name": "kubick-${nextRelease.gitTag}.zip"
+					}
+				]
+			}
+		]
+	]
 }

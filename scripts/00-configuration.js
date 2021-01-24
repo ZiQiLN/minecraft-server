@@ -1,16 +1,25 @@
-const path = require("path");
+const path = require('path')
 
 // Common Sensitive Variables
-const GH_TOKEN = process.env.GH_TOKEN;
-const CF_TOKEN = process.env.CF_TOKEN;
-const CF_API_URI = process.env.CF_API_URI;
+const GH_TOKEN = process.env.GH_TOKEN
+const CF_TOKEN = process.env.CF_TOKEN
+
+// Common Variables
+const CF_API = 'minecraft.curseforge.com'
 
 // Directory Configuration
-const modpackSourceDirectory = path.join(__dirname, "..", "src");
-const modpackManifestPath = path.join(__dirname, "..", "src", "manifest.json");
-const modpackOverridesDirectory = path.join(
-  __dirname,
-  "..",
-  "src",
-  "overrides"
-);
+const baseDirectory = path.join(__dirname, '..')
+const distDirectory = path.join(baseDirectory, 'dist')
+const modpackSourceDirectory = path.join(__dirname, '..', 'src')
+const serverSourceDirectory = path.join(__dirname, '..', 'serv')
+const modpackManifestPath = path.join(modpackSourceDirectory, 'manifest.json')
+const modpackOverridesDirectory = path.join(modpackSourceDirectory, 'overrides')
+const modpackBundleOutput = path.join(baseDirectory, 'dist', 'kubick.zip')
+
+module.exports = {
+	baseDirectory,
+	distDirectory,
+	modpackManifestPath,
+	modpackBundleOutput,
+	CF_TOKEN,
+}
