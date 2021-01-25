@@ -2,78 +2,66 @@
 version: 2.1
 
 orbs:
-    jira: circleci/jira@1.3.0
+   jira: circleci/jira@1.3.0
 
 jobs:
-    release:
-        docker:
-            - image: cimg/node:15.6.0
-        steps:
-            - checkout
-            - run: yarn
-            - run: node scripts/10-preparePackage.js
-            - run: yarn run semantic-release
+   release:
+      docker:
+         - image: cimg/node:15.6.0
+      steps:
+         - checkout
+         - run: yarn
+         - run: node scripts/10-preparePackage.js
+         - run: yarn run semantic-release
 
-    # Builds package and stores artifact, which can be used in another jobs.
-    build:
-        docker:
-            - image: 'circleci/node:12'
-        steps:
-            - checkout
-            - run: yarn
-            - run: node scripts/10-preparePackage.js
-            - store_artifacts:
-                  path: ~/project/dist/curseprofile.zip
-                  destination: kubick.zip
+   # Builds package and stores artifact, which can be used in another jobs.
+   build:
+      docker:
+         - image: 'circleci/node:12'
+      steps:
+         - checkout
+         - run: yarn
+         - run: node scripts/10-preparePackage.js
+         - store_artifacts:
+              path: ~/project/dist/curseprofile.zip
+              destination: kubick.zip
 workflows:
-    # Development Workflow standing for testing and building application source without
-    # any integration to releases or production layer. This workflow is intended to work
-    # only with 'master' branch.
-    dev:
-        jobs:
-            - build:
-                  post-steps:
-                      - jira/notify
-                  filters:
-                      branches:
-                          only:
-                              - master
-    # Nightly workflow stands for testing application and preparing releases as soon as
-    # it's possible from code when tests are passed. This channel is distributed as alpha pre-releases
-    # since it can be crashing and don't work as it should. Nightly releases operate on development branch ('master').
-    nightly:
-        jobs:
-            - build:
-                  filters:
-                      branches:
-                          only:
-                              - master
-                  post-steps:
-                      - jira/notify
-            - release:
-                  filters:
-                      branches:
-                          only:
-                              - master
-                  requires:
-                      - 'build'
-                  post-steps:
-                      - jira/notify
+   # Nightly workflow stands for testing application and preparing releases as soon as
+   # it's possible from code when tests are passed. This channel is distributed as alpha pre-releases
+   # since it can be crashing and don't work as it should. Nightly releases operate on development branch ('master').
+   nightly:
+      jobs:
+         - build:
+              filters:
+                 branches:
+                    only:
+                       - master
+              post-steps:
+                 - jira/notify
+         - release:
+              filters:
+                 branches:
+                    only:
+                       - master
+              requires:
+                 - 'build'
+              post-steps:
+                 - jira/notify
 
-    # Beta workflow stands for testing application and collecting commits for weekly release at 12:30 Monday,
-    # these releases are more polished than nightly releases but still they are wreckable on production.
-    beta:
-        jobs:
-            - build
-            - release:
-                  requires:
-                      - 'build'
-                  post-steps:
-                      - jira/notify
-        triggers:
-            - schedule:
-                  cron: '30 12 * * 5'
-                  filters:
-                      branches:
-                          only:
-                              - next
+   # Beta workflow stands for testing application and collecting commits for weekly release at 12:30 Monday,
+   # these releases are more polished than nightly releases but still they are wreckable on production.
+   beta:
+      jobs:
+         - build
+         - release:
+              requires:
+                 - 'build'
+              post-steps:
+                 - jira/notify
+      triggers:
+         - schedule:
+              cron: '30 12 * * 5'
+              filters:
+                 branches:
+                    only:
+                       - next
