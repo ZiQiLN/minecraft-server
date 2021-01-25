@@ -34,8 +34,6 @@ workflows:
             - build:
                   post-steps:
                       - jira/notify
-        triggers:
-            - schedule:
                   filters:
                       branches:
                           only:
@@ -45,18 +43,22 @@ workflows:
     # since it can be crashing and don't work as it should. Nightly releases operate on development branch ('master').
     nightly:
         jobs:
-            - build
-            - release:
-                  requires:
-                      - 'build'
-                  post-steps:
-                      - jira/notify
-        triggers:
-            - schedule:
+            - build:
                   filters:
                       branches:
                           only:
                               - master
+                  post-steps:
+                      - jira/notify
+            - release:
+                  filters:
+                      branches:
+                          only:
+                              - master
+                  requires:
+                      - 'build'
+                  post-steps:
+                      - jira/notify
 
     # Beta workflow stands for testing application and collecting commits for weekly release at 12:30 Monday,
     # these releases are more polished than nightly releases but still they are wreckable on production.
