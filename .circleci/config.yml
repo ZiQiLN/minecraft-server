@@ -26,12 +26,41 @@ jobs:
                   path: ~/project/dist/curseprofile.zip
                   destination: kubick.zip
 workflows:
+    # Development Workflow standing for testing and building application source without
+    # any integration to releases or production layer. This workflow is intended to work
+    # only with 'master' branch.
     dev:
         jobs:
             - build:
                   post-steps:
                       - jira/notify
-    nighly:
+        triggers:
+            - schedule:
+                  filters:
+                      branches:
+                          only:
+                              - master
+    # Nightly workflow stands for testing application and preparing releases as soon as
+    # it's possible from code when tests are passed. This channel is distributed as alpha pre-releases
+    # since it can be crashing and don't work as it should. Nightly releases operate on development branch ('master').
+    nightly:
+        jobs:
+            - build
+            - release:
+                  requires:
+                      - 'build'
+                  post-steps:
+                      - jira/notify
+        triggers:
+            - schedule:
+                  filters:
+                      branches:
+                          only:
+                              - master
+
+    # Beta workflow stands for testing application and collecting commits for weekly release at 12:30 Monday,
+    # these releases are more polished than nightly releases but still they are wreckable on production.
+    beta:
         jobs:
             - build
             - release:
@@ -45,5 +74,4 @@ workflows:
                   filters:
                       branches:
                           only:
-                              - master
-                              - beta
+                              - next
